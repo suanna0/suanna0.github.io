@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+        <meta charset = "UTF-8"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="file:///Users/suannazhong/Desktop/website/style.css">
+
+        <title>Photo - Suanna Zhong</title>
+
+    </head>
+
+
+    <body>
+
+        <div class = "navbar">
+            <a href="file:///Users/suannazhong/Desktop/website/index.html">
+                <button class = "button">Home</button>
+            </a>
+
+            <a href="file:///Users/suannazhong/Desktop/website/pages/tech.html">
+                <button class = "button">Tech</button>
+            </a>
+
+            <a href="file:///Users/suannazhong/Desktop/website/pages/film.html">
+                <button class = "button">Film</button>
+            </a>
+
+            <a href="file:///Users/suannazhong/Desktop/website/pages/photo.html">
+                <button class = "button">Photo</button>
+            </a>
+
+            <a href="file:///Users/suannazhong/Desktop/website/pages/designillustration.html">
+                <button class = "button">Design/Illustration</button>
+            </a>
+
+            <a href="file:///Users/suannazhong/Desktop/website/pages/3d.html">
+                <button class = "button">3D</button>
+            </a>
+
+            <a href="file:///Users/suannazhong/Desktop/website/pages/about.html">
+                <button class = "button">About</button>
+            </a>
+        </div>
+
+        <!-- scrolling gallery code from here: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive -->
+        <!-- shows two images side by side unless window is less than 1000px, then images are stacked one by one -->
+        <div class = "content"> 
+            <h1>Photo</h1>
+            <div class="gallery_content">
+                <script type = "text/javascript"> 
+                    let img_template_front = '<div class="gallery"><img src="/Users/suannazhong/Desktop/website/images/photo/';
+                    let img_template_middle = '.jpg" alt="';
+                    let img_template_end = '" width="600" height="600"></div>';
+
+                    const img_array = [
+                        ['lucy_1', 'lucy_2'],
+                        ['lucy_3', 'lucy_4'],
+                        ['dolores', 'corona_heights'],
+                        ['LG_1', 'LG_2'], 
+                        ['LG_3', 'LG_4'],
+                        ['texas_dad', 'resevoir'],
+                        ['ceci_1', 'ceci_2'],
+                        ['china_beach','coast_1'],
+                        ['coast_2', 'coast_3'],
+                        ['lucy_b_1', 'lucy_b_2'],
+                        ['ma_family', 'melody_1'],
+                        ['melody_2', 'melody_3']
+                    ];
+
+                    for (let i = 0; i < 24; i++) {
+                        // document.write('<p>'+i+"</p>")
+                        img = img_array[Math.floor(i%12)][Math.floor(i/12)];
+                        // document.write('<p>'+img+"</p>")
+                        document.write(img_template_front + img + img_template_middle + img + img_template_end);
+                    }
+                </script>
+            </div>
+        </div>
+        
+        <div class = "footer">
+            <a target = "_blank" href="https://www.instagram.com/suannazhong/">
+                <button class = "button">IG</button>
+            </a>
+
+            <a target = "_blank" href="https://www.linkedin.com/in/suannaz/">
+                <button class = "button">Linkedin</button>
+            </a>
+
+            <a target = "_blank" href="https://drive.google.com/file/d/12zrwZnSHCdWpsPq2aTeVDqe9W6ElyzOo/view?usp=sharing">
+                <button class = "button">Resume</button>
+            </a>
+        </div>
+
+    </body>
+
+</html>
+
+

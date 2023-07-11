@@ -1,0 +1,99 @@
+/* classes */
+.text {
+    font-family: Avenir;
+    font-size: 16px;
+    color: black;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 15px;
+    font-family: Avenir;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 30px 90px;
+    text-align: right;
+}
+
+.footer {
+  padding: 80px 90px;
+}
+
+.horiz_id {
+    text-align: center;
+    padding-top: 130px
+}
+
+.vert_id {
+    text-align: center;
+    padding-top: 60px
+}
+
+div.gallery {
+    border: 0px solid #ccc;
+  }
+  
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin: 4px 0px;
+}
+
+.gallery_content {
+  column-count: 2;
+  column-gap: 10px;
+}
+
+.content {
+  padding: 0px 275px;
+}
+
+
+
+.content_images {
+  text-align: center;
+  padding: 30px;
+}
+
+
+/* image ids */
+
+#horiz_id {
+  height: 360px;
+  width: auto;
+}
+
+#vert_id {
+  height: 500px;
+  width: auto;
+}
+
+
+#content_img {
+  width: 400px;
+  height: auto;
+}
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+h1 {
+  font-family: Avenir;
+  font-size: 36px;
+}
