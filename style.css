@@ -58,6 +58,11 @@ padding: 30px;
 
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
+  [class*="navbar"] {
+    padding: 0px 30px;
+    text-align: right;
+  }
+
   [class*="content_images"] {
     padding: 5px 0px;
   }
@@ -80,6 +85,10 @@ padding: 30px;
     margin: 2px 8px;
     font-family: Avenir;
     cursor: pointer;
+  }
+
+  [class*="footer"] {
+    padding: 0px 30px;
   }
 }
 
