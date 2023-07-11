@@ -36,10 +36,6 @@ padding: 80px 90px;
   padding-top: 60px
 }
 
-div.gallery {
-  border: 0px solid #ccc;
-}
-
 div.gallery img {
 width: 100%;
 height: auto;
@@ -60,18 +56,30 @@ text-align: center;
 padding: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   [class*="content_images"] {
-    padding: 10px;
+    padding: 5px 0px;
   }
 
   [class*="gallery_content"] {
-  column-count: 1;
+    column-count: 1;
   }
     
   [class*="content"] {
-  padding: 0px 30px;
+    padding: 0px 30px;
+  }
+
+  [class*="button"] {
+    background-color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 8px;
+    font-family: Avenir;
+    cursor: pointer;
   }
 }
 
