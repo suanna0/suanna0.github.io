@@ -23,7 +23,8 @@
 }
 
 .footer {
-padding: 80px 0px;
+  padding: 80px 0px;
+  text-align: center;
 }
 
 .horiz_id {
