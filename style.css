@@ -23,7 +23,7 @@
 }
 
 .footer {
-padding: 80px 90px;
+padding: 80px 0px;
 }
 
 .horiz_id {
@@ -59,20 +59,21 @@ padding: 30px;
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   [class*="navbar"] {
-    padding: 0px 30px;
+    padding: 0px 15px;
     text-align: right;
   }
 
   [class*="content_images"] {
-    padding: 5px 0px;
+    padding: 0px 0px;
   }
 
   [class*="gallery_content"] {
     column-count: 1;
+    column-gap: 0px;
   }
     
   [class*="content"] {
-    padding: 0px 30px;
+    padding: 0px 15px;
   }
 
   [class*="button"] {
@@ -88,7 +89,7 @@ padding: 30px;
   }
 
   [class*="footer"] {
-    padding: 0px 30px;
+    padding: 50px 0px;
   }
 }
 
