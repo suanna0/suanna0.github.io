@@ -63,10 +63,6 @@ padding: 15px;
     text-align: right;
   }
 
-  [class*="content_images"] {
-    padding: 15px;
-  }
-
   [class*="gallery_content"] {
     column-count: 1;
     column-gap: 0px;
