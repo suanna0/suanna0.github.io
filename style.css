@@ -60,16 +60,7 @@ padding: 15px;
   /* For mobile phones: */
   [class*="navbar"] {
     padding: 0px 15px;
-    text-align: right;
-  }
-
-  [class*="gallery_content"] {
-    column-count: 1;
-    column-gap: 0px;
-  }
-    
-  [class*="content"] {
-    padding: 0px 15px;
+    text-align: center;
   }
 
   [class*="button"] {
@@ -82,6 +73,15 @@ padding: 15px;
     margin: 2px 8px;
     font-family: Avenir;
     cursor: pointer;
+  }
+
+  [class*="gallery_content"] {
+    column-count: 1;
+    column-gap: 0px;
+  }
+    
+  [class*="content"] {
+    padding: 0px 15px;
   }
 
   [class*="footer"] {
@@ -115,6 +115,8 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
+
+a:focus { text-decoration: none; }
 
 h1 {
 font-family: Avenir;
