@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+        <meta charset = "UTF-8"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../style.css">
+
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>
+            👩🏻‍💻
+        </text></svg>">
+
+        <title>Animated Mask for Build Fantasy - Suanna Zhong</title>
+
+    </head>
+
+
+    <body>
+
+        <div class = "navbar">
+            <a href="https://suanna0.github.io/index.html">
+                <button class = "button">Home</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/tech.html">
+                <button class = "button">Tech</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/film.html">
+                <button class = "button">Film</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/photo.html">
+                <button class = "button">Photo</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/designillustration.html">
+                <button class = "button">Design/Illustration</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/3d.html">
+                <button class = "button">3D</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/about.html">
+                <button class = "button">About</button>
+            </a>
+        </div>
+
+        <div class = "content">
+            <h1>Animated Mask for Build Fantasy </h1>
+        </div>
+
+        <div class = "content_images">
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/BhwtAi_jnJk"> 
+            </iframe>
+        </div>
+
+        <div class = "content">
+            <p class = "text">ZBrush, Maya, DaVinci Resolve, 2023</p>
+
+            <p class = "text">
+                Digitally sculpted in ZBrush. Rigged and rendered in Maya.
+            </p>
+        </div> 
+
+        <div class = "footer">
+            <a target = "_blank" href="https://www.instagram.com/suannazhong/">
+                <button class = "button">IG</button>
+            </a>
+
+            <a target = "_blank" href="https://www.linkedin.com/in/suannaz/">
+                <button class = "button">Linkedin</button>
+            </a>
+
+            <a target = "_blank" href="https://drive.google.com/file/d/1yxfHTeIPGKJ9X1iSmjVfHOz-YF0C_jNF/view?usp=sharing">
+                <button class = "button">Resume</button>
+            </a>
+            
+        </div>
+        
+    </body>
+
+</html>
+
