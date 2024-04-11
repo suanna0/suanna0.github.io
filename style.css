@@ -15,6 +15,7 @@
   margin: 8px 15px;
   font-family: 'Neue Haas Grotesk Display Pro 500', sans-serif;        
   cursor: pointer;
+  color: black;
 }
 
 .navbar {
@@ -97,6 +98,7 @@ a:focus { text-decoration: none; }
 h1 {
 font-family: 'Neue Haas Grotesk Display Pro 700', sans-serif;        
 font-size: 36px;
+color: black;
 }
 
 @media only screen and (max-width: 1180px) {
@@ -116,6 +118,7 @@ font-size: 36px;
     margin: 2px 8px;
     font-family: 'Neue Haas Grotesk Display Pro 500', sans-serif;        
     cursor: pointer;
+    color: black;
   }
 
   [class*="gallery_content"] {
