@@ -1,5 +1,5 @@
 .text {
-  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;                                       
+  font-family: 'Neue Haas Grotesk Display Pro 100', sans-serif;                                       
   font-size: 16px;
   color: #222222;
 }
@@ -12,7 +12,7 @@
   display: inline-block;
   font-size: 16px;
   margin: 8px 15px;
-  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
+  font-family: 'Neue Haas Grotesk Display Pro 100', sans-serif;        
   cursor: pointer;
   color: 	#222222;
 }
@@ -95,9 +95,9 @@ a:active { text-decoration: none; }
 a:focus { text-decoration: none; }
 
 h1 {
-font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
+font-family: 'Neue Haas Grotesk Display Pro 700', sans-serif;        
 font-size: 36px;
-color: 	#222222;
+color: #222222;
 }
 
 @media only screen and (max-width: 1180px) {
@@ -115,7 +115,7 @@ color: 	#222222;
     display: inline-block;
     font-size: 16px;
     margin: 2px 8px;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
+    font-family: 'Neue Haas Grotesk Display Pro 100', sans-serif;        
     cursor: pointer;
     color: 	#222222;
   }
