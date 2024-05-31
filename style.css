@@ -14,7 +14,7 @@
   margin: 8px 15px;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
   cursor: pointer;
-  color: 	#222222;
+  color: #222222;
 }
 
 .navbar {
@@ -25,16 +25,6 @@
 .footer {
   padding: 80px 0px;
   text-align: center;
-}
-
-.horiz_id {
-  text-align: center;
-  padding-top: 130px
-}
-
-.vert_id {
-  text-align: center;
-  padding-top: 60px
 }
 
 div.gallery img {
@@ -58,18 +48,6 @@ padding: 0px 275px;
 .content_images {
 text-align: center;
 padding: 15px;
-}
-
-/* image ids */
-
-#horiz_id {
-height: 360px;
-width: auto;
-}
-
-#vert_id {
-height: 500px;
-width: auto;
 }
 
 #content_img {
