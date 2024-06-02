@@ -1,1 +1,129 @@
+.text {
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;                                       
+  font-size: 16px;
+  color: #222222;
+}
 
+.button {
+  background-color: #FFFFFF;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 15px;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
+  cursor: pointer;
+  color: #222222;
+}
+
+.navbar {
+  padding: 30px 90px;
+  text-align: right;
+}
+
+.footer {
+  padding: 80px 0px;
+  text-align: center;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+.gallery_content {
+column-count: 2;
+column-gap: 10px;
+}
+
+div.gallery{
+  padding-top: 10px 
+}
+
+.content {
+padding: 0px 400px;
+}
+
+.content_images {
+text-align: center;
+padding: 15px;
+}
+
+#content_img {
+width: 1000px;
+height: auto;
+}
+
+#about_img {
+  width: 400px;
+  height: auto;
+}
+
+/* other */
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+a:focus { text-decoration: none; }
+
+h1 {
+font-family: 'Neue Haas Grotesk Display Pro 700', sans-serif;        
+font-size: 36px;
+color: #222222;
+}
+
+@media only screen and (max-width: 1180px) {
+  /* For mobile phones: */
+  [class*="navbar"] {
+    padding: 0px 15px;
+    text-align: center;
+  }
+
+  [class*="button"] {
+    background-color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 8px;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
+    cursor: pointer;
+    color: 	#222222;
+  }
+
+  [class*="gallery_content"] {
+    column-count: 1;
+    column-gap: 0px;
+  }
+    
+  [class*="content"] {
+    padding: 0px 15px;
+  }
+
+  [class*="content_images"] {
+    text-align: center;
+    padding: 15px;
+  }
+
+  [class*="footer"] {
+    padding: 50px 0px;
+  }
+
+  #content_img {
+    width: 375px;
+    height: auto;
+    }
+
+  #about_img {
+    width: 375px;
+    height: auto;
+    }
+
+}
