@@ -28,13 +28,13 @@
 }
 
 div.gallery img {
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .gallery_content {
-column-count: 2;
-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
 }
 
 div.gallery{
@@ -42,21 +42,16 @@ div.gallery{
 }
 
 .content {
-padding: 0px 400px;
+  padding: 0px 400px;
 }
 
 .content_images {
-text-align: center;
-padding: 15px;
+  text-align: center;
+  padding: 15px;
 }
 
 #content_img {
-width: 400px;
-height: auto;
-}
-
-#about_img {
-  width: 400px;
+  width: 500px;
   height: auto;
 }
 
