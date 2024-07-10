@@ -48,8 +48,28 @@
         </div>
 
         <div class = "content_images">
-            <img id = "content_img" alt="do_you_know.jpeg" src="https://suanna0.github.io/images/designillustration/do_you_know.jpeg">
+            <img id = "content_img" alt="do_you_know.jpeg" src="https://suanna0.github.io/images/designillustration/do_you_know.jpeg" onclick="enlargeImg()">
+            <br/>
+            <br/>
+            <button onclick="resetImg()">Reset
+            </button>
         </div>
+
+        <script>
+            img = document.getElementById("img1");
+            // Function to set image dimensions
+            function enlargeImg() {
+                img.style.width = "60%";
+                img.style.height = "auto";
+                img.style.transition = "width 0.5s ease";
+            }
+            // Function to reset image dimensions
+            function resetImg() {
+                img.style.width = "40%";
+                img.style.height = "auto";
+                img.style.transition = "width 0.5s ease";
+            }
+        </script>
 
         <div class = "content">
             <p class = "text">Acrylic on canvas, 2023.</p>
