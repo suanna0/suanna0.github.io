@@ -51,7 +51,7 @@
             <img id = "content_img" alt="do_you_know.jpeg" id = "do_you_know" src="https://suanna0.github.io/images/designillustration/do_you_know.jpeg" onclick="enlargeImg()">
             <br/>
             <br/>
-            <button onclick="resetImg()">Reset
+            <button class = "button" onclick="resetImg()">Reset
             </button>
         </div>
 
@@ -59,13 +59,13 @@
             img = document.getElementById("do_you_know");
             // Function to set image dimensions
             function enlargeImg() {
-                img.style.width = "60%";
+                img.style.width = 1280px;
                 img.style.height = "auto";
                 img.style.transition = "width 0.5s ease";
             }
             // Function to reset image dimensions
             function resetImg() {
-                img.style.width = "40%";
+                img.style.width = 400px;
                 img.style.height = "auto";
                 img.style.transition = "width 0.5s ease";
             }
