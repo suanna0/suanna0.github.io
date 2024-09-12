@@ -108,11 +108,10 @@ color: #222222;
 
   [class*="gallery_content"] {
     column-count: 1;
-    column-gap: 0px;
   }
     
   [class*="content"] {
-    padding: 0px 15px;
+    padding: 5vh 5vw; 
   }
 
   [class*="content_images"] {
@@ -124,13 +123,8 @@ color: #222222;
   }
 
   #content_img {
-    width: 375px;
+    width: 90vw;
     height: auto;
-    }
-
-  #about_img {
-    width: 375px;
-    height: auto;
-    }
+  }
 
 }
