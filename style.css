@@ -42,13 +42,13 @@ div.gallery{
 }
 
 .content {
-  padding: 0px 300px;
+  padding: 0px 500px;
   column-width: 500px;
 }
 
 .content_images {
   align: center;
-  width: 300px;
+  width: 500px;
   height: auto;
 }
 
