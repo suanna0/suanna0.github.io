@@ -27,18 +27,18 @@
   text-align: center;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
 .gallery_content {
   column-count: 2;
   column-gap: 10px;
 }
 
+div.gallery_no_click {
+    padding: 5px 0px; 
+}
+
 div.gallery_no_click img {
-  padding: 5px 0px; 
+  width: 100%;
+  height: auto;
 }
 
 div.gallery {
@@ -48,6 +48,11 @@ div.gallery {
 
 div.gallery:hover {
   filter: brightness(50%); /* Darken the image by 50% */
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
 .content {
