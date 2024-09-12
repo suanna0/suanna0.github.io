@@ -47,7 +47,7 @@ div.gallery{
 }
 
 .content_images {
-  text-align: center;
+  align: center;
   width: 300px;
   height: auto;
 }
