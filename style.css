@@ -42,7 +42,8 @@ div.gallery{
 }
 
 .content {
-  padding: 0px 400px;
+  column-width: 500px;
+  padding: 0px 300px;
 }
 
 .content_images {
