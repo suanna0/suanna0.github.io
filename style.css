@@ -38,7 +38,7 @@ div.gallery img {
 }
 
 div.gallery{
-  padding-top: 10px 
+  padding: 5px 0px; 
 }
 
 .content {
@@ -50,8 +50,7 @@ div.gallery{
 }
 
 #content_img {
-  padding: 0px 400px;
-  width: 100%;
+  width: 600px;
   height: auto;
 }
 
