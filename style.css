@@ -20,13 +20,13 @@
 .navbar {
   padding: 30px 25vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .footer {
   padding: 80px 25vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .gallery_content {
@@ -93,7 +93,7 @@ color: #222222;
   [class*="navbar"] {
     padding: 0px 0px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 
   [class*="button"] {
@@ -124,7 +124,7 @@ color: #222222;
   [class*="footer"] {
     padding: 0px 0px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 
   #content_img {
