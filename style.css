@@ -111,7 +111,7 @@ color: #222222;
   }
     
   [class*="content"] {
-    padding: 5vh 5vw; 
+    padding: 5vh 0vw; 
   }
 
   [class*="content_images"] {
