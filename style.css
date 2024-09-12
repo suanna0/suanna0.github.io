@@ -92,7 +92,8 @@ color: #222222;
   /* For mobile phones: */
   [class*="navbar"] {
     padding: 0px 0px;
-    column-count: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
   }
 
   [class*="button"] {
@@ -123,7 +124,8 @@ color: #222222;
 
   [class*="footer"] {
     padding: 0px 0px;
-    column-count: 2;
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
   }
 
   #content_img {
