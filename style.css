@@ -90,7 +90,7 @@ color: #222222;
 
 iframe {
   width: 50vw;  
-  height: auto;  
+  height: 30vw;  
 }
 
 @media only screen and (max-width: 850px) {
