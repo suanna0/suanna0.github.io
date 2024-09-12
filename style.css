@@ -43,10 +43,11 @@ div.gallery{
 
 .content {
   padding: 0px 300px;
-  column-width: 300px;
+  column-width: 500px;
 }
 
 .content_images {
+  text-align: center;
   width: 300px;
   height: auto;
 }
