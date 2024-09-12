@@ -42,16 +42,17 @@ div.gallery{
 }
 
 .content {
-  column-width: 500px;
   padding: 0px 300px;
+  column-width: 300px;
 }
 
 .content_images {
-  text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 #content_img {
-  width: 500px;
+  width: 100%;
   height: auto;
 }
 
@@ -112,12 +113,7 @@ color: #222222;
   }
 
   #content_img {
-    width: 375px;
-    height: auto;
-    }
-
-  #about_img {
-    width: 375px;
+    width: 100%;
     height: auto;
     }
 
