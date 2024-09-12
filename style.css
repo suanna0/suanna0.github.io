@@ -42,7 +42,7 @@ div.gallery{
 }
 
 .content {
-  padding: 0px 400px;
+  padding: 12vw 25vh; /* 5% of viewport width for top/bottom, 3% of viewport height for left/right */
 }
 
 .content_images {
