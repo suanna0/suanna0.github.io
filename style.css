@@ -43,17 +43,15 @@ div.gallery{
 
 .content {
   padding: 0px 400px;
-  column-width: 500px;
 }
 
 .content_images {
   text-align: center;
-  width: 500px;
-  height: auto;
+  padding: 15px;
 }
 
 #content_img {
-  width: 100%;
+  width: 500px;
   height: auto;
 }
 
@@ -114,7 +112,12 @@ color: #222222;
   }
 
   #content_img {
-    width: 100%;
+    width: 375px;
+    height: auto;
+    }
+
+  #about_img {
+    width: 375px;
     height: auto;
     }
 
