@@ -7,24 +7,25 @@
 .button {
   background-color: #FFFFFF;
   border: none;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 8px 15px;
+  margin: 0px 100vw 0px 0px;
+  padding: 0px 0px;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
   cursor: pointer;
   color: #222222;
 }
 
 .navbar {
-  padding: 30px 90px;
-  text-align: right;
+  padding: 30px 25vw;
+  column-count: 2;
 }
 
 .footer {
-  padding: 80px 0px;
-  text-align: center;
+  padding: 30px 25vw;
+  column-count: 2;
 }
 
 .gallery_content {
