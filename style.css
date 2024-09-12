@@ -90,18 +90,19 @@ color: #222222;
 @media only screen and (max-width: 850px) {
   /* For mobile phones: */
   [class*="navbar"] {
-    padding: 0px 15px;
-    text-align: center;
+    padding: 0px 0px;
+    column-count: 2;
   }
 
   [class*="button"] {
     background-color: white;
     border: none;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 2px 8px;
+    margin: 0px 100vw 0px 0px;
+    padding: 0px 0px;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
     cursor: pointer;
     color: 	#222222;
@@ -120,7 +121,8 @@ color: #222222;
   }
 
   [class*="footer"] {
-    padding: 50px 0px;
+    padding: 0px 0px;
+    column-count: 2;
   }
 
   #content_img {
