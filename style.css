@@ -37,12 +37,17 @@ div.gallery img {
   column-gap: 10px;
 }
 
-div.gallery{
+div.gallery {
   padding: 5px 0px; 
+  transition: filter 0.3s ease; /* Smooth transition effect */
+}
+
+div.gallery:hover {
+  filter: brightness(50%); /* Darken the image by 50% */
 }
 
 .content {
-  padding: 12vw 25vh; /* 5% of viewport width for top/bottom, 3% of viewport height for left/right */
+  padding: 12vw 25vh; 
 }
 
 .content_images {
