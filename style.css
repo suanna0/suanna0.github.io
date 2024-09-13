@@ -34,15 +34,6 @@
   column-gap: 10px;
 }
 
-div.gallery_no_click {
-    padding: 5px 0px; 
-}
-
-div.gallery_no_click img {
-  width: 100%;
-  height: auto;
-}
-
 div.gallery {
   padding: 5px 0px; 
   transition: filter 0.3s ease; /* Smooth transition effect */
