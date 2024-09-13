@@ -96,9 +96,9 @@ iframe {
 @media only screen and (max-width: 850px) {
   /* For mobile phones: */
   [class*="navbar"] {
-    padding: 0px 0px 0px 25vw;
+    padding: 0px 0px 0px 0px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 
   [class*="button"] {
@@ -129,7 +129,7 @@ iframe {
   [class*="footer"] {
     padding: 0px 0px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   #content_img {
