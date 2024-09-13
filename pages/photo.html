@@ -42,8 +42,6 @@
             </a>
         </div>
 
-        <!-- scrolling gallery code from here: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive -->
-        <!-- shows two images side by side unless window is less than 1000px, then images are stacked one by one -->
         <div class = "content"> 
             <h1>Photo</h1>
             <div class="gallery_content">
@@ -84,12 +82,13 @@
                         'coast_2.jpeg', 'coast_3.jpeg',
                         
                         'lucy_b_2.jpg', 'ma_family.jpg', 
+                        'blasting_sophie_1.jpg', 'blasting_sophie_2.jpg',
+                        'blasting_sophie_3.jpg', 'blasting_sophie_4.jpg',
+                        'blasting_sophie_5.jpg', 'blasting_sophie_6.jpg'
                     ];
 
                     for (let i = 0; i < img_array.length; i++) {
-                        // document.write('<p>'+i+"</p>")
                         img = img_array[i];
-                        // document.write('<p>'+img+"</p>")
                         document.write(img_template_front + img + img_template_middle + img + img_template_end);
                     }
                 </script>
