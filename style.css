@@ -103,13 +103,13 @@ iframe {
   [class*="navbar"] {
     padding: 3vh 0px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   [class*="button"] {
     background-color: white;
     border: none;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
@@ -130,7 +130,7 @@ iframe {
   [class*="footer"] {
     padding: 3vh 0vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   #content_img {
