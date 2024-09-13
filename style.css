@@ -119,7 +119,7 @@ iframe {
   }
     
   [class*="content"] {
-    padding: 5vh 0vw; 
+    padding: 0vh 0vw; 
   }
 
   [class*="content_images"] {
