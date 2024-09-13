@@ -45,6 +45,36 @@
 
         <div class = "content">
             <h1>Suanna Zhong</h1>
+
+            <div class="gallery">
+                <img src="https://suanna0.github.io/images/about/about_suanna.JPG" alt="Thumbnail Image" class="thumbnail" onclick="openLightbox();currentSlide(1)">
+            </div>
+              
+            <!-- Lightbox container -->
+            <div id="lightbox" class="lightbox">
+                <span class="close" onclick="closeLightbox()">&times;</span>
+                <img class="lightbox-content" id="lightbox-img">
+            </div>
+
+            <!-- JavaScript integrated in the same HTML file -->
+            <script>
+                // Open the lightbox
+                function openLightbox() {
+                document.getElementById('lightbox').style.display = "block";
+                }
+
+                // Close the lightbox
+                function closeLightbox() {
+                document.getElementById('lightbox').style.display = "none";
+                }
+
+                // Display the clicked image in the lightbox
+                function currentSlide(n) {
+                var imageSrc = document.querySelector(".thumbnail").src;
+                document.getElementById('lightbox-img').src = imageSrc;
+                }
+            </script>
+              
             
             <div class = "content_images">
                 <img id = "content_img" alt="about_img" src="https://suanna0.github.io/images/about/about_suanna.JPG">
