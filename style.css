@@ -54,6 +54,7 @@ div.gallery img {
 
 .content_images {
   text-align: center;
+  padding: 5px 0px; 
 }
 
 #content_img {
@@ -124,10 +125,6 @@ iframe {
     
   [class*="content"] {
     padding: 0vh 0vw; 
-  }
-
-  [class*="content_images"] {
-    text-align: center;
   }
 
   [class*="footer"] {
