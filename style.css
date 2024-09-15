@@ -36,7 +36,7 @@
 
 div.gallery {
   padding: 5px 0px; 
-  transition: filter 0.3s ease; /* Smooth transition effect */
+  transition: filter 1s ease; /* Smooth transition effect */
 }
 
 div.gallery:hover {
