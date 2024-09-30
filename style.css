@@ -26,7 +26,7 @@
 .footer {
   padding: 80px 25vw;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .gallery_content {
