@@ -14,7 +14,6 @@
   padding: 0px 0px;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
   color: #222222;
-  cursor: help;
 }
 
 .navbar {
@@ -37,7 +36,6 @@
 div.gallery {
   padding: 5px 0px; 
   transition: filter 1s ease; /* Smooth transition effect */
-  cursor: help;
 }
 
 div.gallery:hover {
@@ -54,29 +52,26 @@ div.gallery img {
 }
 
 .content_images {
-  cursor: help;
   text-align: center;
   padding: 5px 0px; 
 }
 
 #content_img {
-  cursor: help;
   width: 50vw;
   height: auto;
 }
 
 a:link { 
   text-decoration: none; 
-  cursor: help;
 }
 
-a:visited { text-decoration: none; cursor: help;}
+a:visited { text-decoration: none; }
 
-a:hover { text-decoration: none; cursor: help;}
+a:hover { text-decoration: none; }
 
-a:active { text-decoration: none; cursor: help;}
+a:active { text-decoration: none; }
 
-a:focus { text-decoration: none; cursor: help;}
+a:focus { text-decoration: none; }
 
 h1 {
 font-family: 'Neue Haas Grotesk Display Pro 700', sans-serif;        
@@ -111,7 +106,6 @@ iframe {
     padding: 0px 0px;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
     color: 	#222222;
-    cursor: help;
   }
 
   [class*="gallery_content"] {
@@ -131,13 +125,11 @@ iframe {
   #content_img {
     padding: 5px 0px;
     width: 100%;
-    cursor: help;
   }
 
   iframe {
     width: 90vw;  
     height: 60vw;  
-    cursor: help;
   }
 
 }
