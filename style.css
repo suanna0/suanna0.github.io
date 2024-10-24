@@ -61,14 +61,8 @@ div.gallery img {
   height: auto;
 }
 
-a:-webkit-any-link {
-  color: -webkit-link;
-  cursor: help;
-}
-
-/* other */
-
-a:link { text-decoration: none; }
+a:link { text-decoration: none; 
+  cursor: help;}
 
 a:visited { text-decoration: none; }
 
