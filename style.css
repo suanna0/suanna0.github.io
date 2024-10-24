@@ -13,7 +13,6 @@
   font-size: 14px;
   padding: 0px 0px;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
-  cursor: help;
   color: #222222;
 }
 
@@ -62,6 +61,11 @@ div.gallery img {
   height: auto;
 }
 
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: help;
+}
+
 /* other */
 
 a:link { text-decoration: none; }
@@ -106,7 +110,6 @@ iframe {
     font-size: 14px;
     padding: 0px 0px;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;        
-    cursor: help;
     color: 	#222222;
   }
 
