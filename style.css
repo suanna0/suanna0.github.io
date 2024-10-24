@@ -36,6 +36,7 @@
 div.gallery {
   padding: 5px 0px; 
   transition: filter 1s ease; /* Smooth transition effect */
+  cursor: help;
 }
 
 div.gallery:hover {
@@ -61,8 +62,10 @@ div.gallery img {
   height: auto;
 }
 
-a:link { text-decoration: none; 
-  cursor: help;}
+a:link { 
+  text-decoration: none; 
+  cursor: help;
+}
 
 a:visited { text-decoration: none; }
 
