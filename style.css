@@ -58,6 +58,7 @@ div.gallery img {
 }
 
 #content_img {
+  cursor: help;
   width: 50vw;
   height: auto;
 }
@@ -67,13 +68,13 @@ a:link {
   cursor: help;
 }
 
-a:visited { text-decoration: none; }
+a:visited { text-decoration: none; cursor: help;}
 
-a:hover { text-decoration: none; }
+a:hover { text-decoration: none; cursor: help;}
 
-a:active { text-decoration: none; }
+a:active { text-decoration: none; cursor: help;}
 
-a:focus { text-decoration: none; }
+a:focus { text-decoration: none; cursor: help;}
 
 h1 {
 font-family: 'Neue Haas Grotesk Display Pro 700', sans-serif;        
