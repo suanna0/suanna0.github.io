@@ -78,6 +78,12 @@ font-size: 36px;
 color: #222222;
 }
 
+h2 {
+  font-family: 'Neue Haas Grotesk Display Pro 700', sans-serif;        
+  font-size: 14px;
+  color: #222222;
+}
+
 iframe {
   width: 50vw;  
   height: 30vw;  
