@@ -107,10 +107,6 @@ iframe {
   cursor: crosshair;
 }
 
-.scroll-section {
-  cursor: crosshair;
-}
-
 @media only screen and (max-width: 850px) {
   /* For mobile phones: */
   [class*="navbar"] {
