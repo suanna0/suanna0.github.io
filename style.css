@@ -108,14 +108,7 @@ iframe {
 }
 
 .scroll-section {
-  width: 80%;
-  height: 100vh;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ccc;
-  margin: 20px 0;
+  cursor: crosshair;
 }
 
 @media only screen and (max-width: 850px) {
