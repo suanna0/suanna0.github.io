@@ -55,14 +55,17 @@
                 I was inspired by the natural shapes created by my Deterministic Finite Automaton diagrams. To make a more elegant image, I drew inspiration from Mark Lombardi's diagrams and I tried to look for ways I could change the relationship between the nodes and the edges.
             </p>
 
+            <div class="reveal">
             <div class = "content_images">
                 <img id = "content_img" alt="dfa" src="https://suanna0.github.io/images/tech/diagram_sketch.jpg">
+            </div>
             </div>
 
             <p class = "text">
                 Looking through loose papers, I noticed that a majority of them were done with pencil or pen. I wanted to make sure that the interface did not distract from the content, so I decided to keep it simple with black text on a white background with minimal node movement. 
             </p>
 
+            <div class="reveal">
             <div class="side_by_side_content">
                 <div class="side_by_side">
                     <img src="https://suanna0.github.io/images/tech/diagram_figma.jpg">
@@ -72,12 +75,14 @@
                     <img src="https://suanna0.github.io/images/tech/diagram_p5_ui.jpg">
                 </div>
             </div>
+            </div>
 
             <h2>Graph Movement:</h2>
             <p class = "text">
                 Since the project is 2D, it made the most sense to use p5.js for my implementation. To create my graph, I started with working <a target ="_blank" href="https://editor.p5js.org/golan/sketches/-XAvixBhM">spring code</a> created by Golan Levin. Mimicking my early sketches, I opted for bezier curves instead of straight lines to connect the nodes. 
             </p>
 
+            <div class="reveal">
             <div class="side_by_side_content">
                 <div class="side_by_side">
                     <img src="https://suanna0.github.io/images/tech/diagram_p5_test.gif">
@@ -86,6 +91,7 @@
                 <div class="side_by_side">
                     <img src="https://suanna0.github.io/images/tech/diagram_p5_test_2.gif">
                 </div>
+            </div>
             </div>
 
             <p class = "text">
@@ -97,8 +103,10 @@
                 Not all edges hold the same meaning. Some pages had scratch work for multiple classes and I needed a way to distinguish between different courses. Hence, I used an adjacency matrix to store the edge information. Instead of populating the matrix with 1's to represent a non-zero value, I used the course number. The nodes could be accessed through indexing into the first row of the matrix.
             </p>
 
+            <div class="reveal">
             <div class = "content_images">
                 <img id = "content_img" alt="p5" src="https://suanna0.github.io/images/tech/diagram_matrix.JPG">
+            </div>
             </div>
 
             <h2>Takeaways:</h2>
@@ -130,6 +138,7 @@
         </div>
         
     </div>
+    <script src = "../../script.js"></script>
     </body>
 
 </html>
