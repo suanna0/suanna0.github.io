@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const windowHeight = window.innerHeight;
         reveals.forEach(reveal => {
             const elementTop = reveal.getBoundingClientRect().top;
-            const isVisible = elementTop < windowHeight - 250;  // Adjust trigger point if needed
+            const isVisible = elementTop < windowHeight - 50;  // Adjust trigger point if needed
             if (isVisible) {
                 reveal.classList.add("reveal-visible");
             }
