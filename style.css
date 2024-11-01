@@ -149,6 +149,10 @@ iframe {
   [class*="content"] {
     padding: 0vh 10px; 
   }
+  
+  [class*="content_img"] {
+    padding: 0px 0px; 
+  }
 
   [class*="footer"] {
     padding: 3vh 0vw;
