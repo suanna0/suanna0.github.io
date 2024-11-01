@@ -31,7 +31,7 @@
 
 .gallery_content {
   column-count: 2;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 
 div.side_by_side {
@@ -40,7 +40,7 @@ div.side_by_side {
 
 .side_by_side_content {
   column-count: 2;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 
 div.side_by_side img{
@@ -49,7 +49,7 @@ div.side_by_side img{
 }
 
 div.gallery {
-  padding: 5px 0px; 
+  padding: 10px 0px; 
   transition: filter 1s ease; /* Smooth transition effect */
 }
 
