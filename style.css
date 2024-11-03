@@ -150,6 +150,11 @@ iframe {
   [class*="content"] {
     padding: 0vh 10px; 
   }
+
+  .content_images {
+    text-align: center;
+    padding: 30px 0px; 
+  }
   
   [class*="content_img"] {
     padding: 30px 0px; 
