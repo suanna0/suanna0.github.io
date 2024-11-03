@@ -168,8 +168,8 @@ iframe {
   }
 
   iframe {
-    width: 90vw;  
-    height: 51vw;  
+    width: 100%;  
+    height: 56%;  
   }
 
 }
