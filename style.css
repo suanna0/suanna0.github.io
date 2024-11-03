@@ -145,6 +145,8 @@ iframe {
 
   [class*="gallery_content"] {
     column-count: 1;
+    padding: 30px 0px; 
+    width: 100%;
   }
     
   [class*="content"] {
