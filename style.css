@@ -142,6 +142,11 @@ iframe {
     color: 	#222222;
     cursor: crosshair;
   }
+  
+  [class*="content"] {
+    padding: 0vh 10px; 
+  }
+
 
   [class*="gallery_content"] {
     column-count: 1;
@@ -149,9 +154,6 @@ iframe {
     width: 100%;
   }
     
-  [class*="content"] {
-    padding: 0vh 10px; 
-  }
 
   [class*="content_images"] {
     text-align: center;
