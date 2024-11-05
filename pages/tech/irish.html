@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+        <meta charset = "UTF-8"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../style.css">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="https://suanna0.github.io/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://suanna0.github.io/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://suanna0.github.io/images/favicon/favicon-16x16.png">
+
+        <title>Irish Exit Website - Suanna Zhong</title>
+
+    </head>
+
+
+    <body>
+        <div class="crosshair-area">
+        <div class = "navbar">
+            <a href="https://suanna0.github.io/pages/photo.html">
+                <button class = "button">Photo</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/tech.html">
+                <button class = "button">Tech</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/film.html">
+                <button class = "button">Audiovisual</button>
+            </a>
+
+            <a href="https://suanna0.github.io/pages/designillustration.html">
+                <button class = "button">Illustration</button>
+            </a>
+
+            <a href="https://suanna0.github.io">
+                <button class = "button">钟</button>
+            </a>
+        </div>
+
+        <div class = "content">
+            <h1>Diagram Appropriation</h1>
+            <p class = "text">
+                <a target = "_blank" href = "https://irish-exit.glitch.me/">Irish Exit</a>is a group exhibition in collaboration with Bethany Hwang, Morgan Nash, and Helena Starzec in the Frame Gallery, in Pittsburgh, PA. Since the exhibition only lasted for four days, I created a website to immortalize the exhibition.<br><br>
+                Timeline: 1 week
+            </p>
+
+            <h2>Process:</h2>
+            <p class = "text">
+                to do: talk about <br>
+                slow scroll <br>
+                font pairing <br>
+                teaser <br>
+            </p>
+
+            <h2>Typeface Pairing:</h2>
+
+            <div class="reveal">
+            <div class="side_by_side_content">
+                <div class="side_by_side">
+                    <img src="https://suanna0.github.io/images/tech/irish_brand.png">
+                </div>
+
+                <div class="side_by_side">
+                    <img src="https://suanna0.github.io/images/tech/irish_figma.png">
+                </div>
+            </div>
+            </div>
+
+            <h2>Slow Scroll:</h2>
+            <p class = "text">
+                Since the project is 2D, it made the most sense to use p5.js for my implementation. To create my graph, I started with working <a target ="_blank" href="https://editor.p5js.org/golan/sketches/-XAvixBhM">spring code</a> created by Golan Levin. Mimicking my early sketches, I opted for bezier curves instead of straight lines to connect the nodes. 
+            </p>
+
+            <div class="reveal">
+            <div class="side_by_side_content">
+                <div class="side_by_side">
+                    <img src="https://suanna0.github.io/images/tech/diagram_p5_test.gif">
+                </div>
+
+                <div class="side_by_side">
+                    <img src="https://suanna0.github.io/images/tech/diagram_p5_test_2.gif">
+                </div>
+            </div>
+            </div>
+
+            <p class = "text">
+                I asked a few people to test the site interaction. A common piece of feedback I got was that the recoil of the springs was too fast and it was too difficult to see the topology of the graph. One person said that the oval nodes looked confusing so I decided to change the node shape to tiny A4 papers. While the rectangular nodes might not have the same, organic, quality as my sketches, it feels more intuitive to the user that the nodes represent pieces of paper.
+            </p>
+
+            <h2>Storing the Data:</h2>
+            <p class = "text">
+                Not all edges hold the same meaning. Some pages had scratch work for multiple classes and I needed a way to distinguish between different courses. Hence, I used an adjacency matrix to store the edge information. Instead of populating the matrix with 1's to represent a non-zero value, I used the course number. The nodes could be accessed through indexing into the first row of the matrix.
+            </p>
+
+            <div class="reveal">
+            <div class = "content_images">
+                <img id = "content_img" alt="p5" src="https://suanna0.github.io/images/tech/diagram_matrix.JPG">
+            </div>
+            </div>
+
+            <h2>Takeaways:</h2>
+            <p class = "text">
+                In this project, a key takeaway has been enforcing constraints for better design. Grid systems helped me organize my information to look pleasing to the eye. Working with fewer constraints, then gradually adding smaller changes taught me that less is more. At the beginning, I was not sure to include all scratch work or only scratch work done on A4 papers. However, using A4 rectangles instead of circular nodes led to a more intuitive interface. <br><br>
+                Another key takeaway was practicing asking for constructive criticism from my peers. Asking questions about the site interactions without giving any context to the project's purpose gave me insight to see interactions were effective and which were not. <br><br>
+                Additionally, thinking a few steps ahead encourages implementing features with modularity, allowing for flexible changes in future iterations. That led me to using an adjacency matrix to store the graph information which makes it easy for me to add information as I accumulate more papers in the future. <br><br>
+                Lastly, practicing honesty by openly sharing the courses I dropped or did not pass has been valuable. It was a tough decision for me to share that information but I believe that it candidly shows my personal growth as a student. <br><br>
+                <a target ="_blank" href="https://github.com/suanna0/dev-lab/tree/main/diagram_appropriation">Github</a> 
+            </p>
+
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <iframe 
+                    src="https://www.youtube.com/embed/oMqjRrZmGxU">
+                    </iframe>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class = "footer">
+            <a target = "_blank" href="https://www.instagram.com/suannazhong/">
+                <button class = "button">IG</button>
+            </a>
+
+            <a target = "_blank" href="https://www.linkedin.com/in/suannaz/">
+                <button class = "button">Linkedin</button>
+            </a>
+
+            <a target = "_blank" href="https://github.com/suanna0/suanna0/blob/main/Resume.pdf"> 
+                <button class = "button">Resume</button>
+            </a>
+
+            <a target = "_blank" href="https://github.com/suanna0">
+                <button class = "button">Github</button>
+            </a>
+            
+        </div>
+        
+    </div>
+    <script src = "../../script.js"></script>
+    </body>
+
+</html>
