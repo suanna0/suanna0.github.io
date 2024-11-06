@@ -147,6 +147,9 @@ iframe {
     padding: 0px 0px; 
   }
 
+  div.gallery {
+    padding: 0px 0px; 
+  }
 
   [class*="gallery_content"] {
     column-count: 1;
@@ -160,7 +163,7 @@ iframe {
   }
   
   #content_img {
-    padding: 5pxpx 0px; 
+    padding: 5px 0px; 
     width: 100%;
   }
 
