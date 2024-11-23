@@ -18,7 +18,7 @@
 }
 
 .navbar {
-  padding: 30px 0px 25vw 25vw;
+  padding: 30px 25vw 0px 24vw;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
