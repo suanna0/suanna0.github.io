@@ -1,24 +1,14 @@
-
 <!DOCTYPE html>
-
 <html lang="en">
-
-
     <head>
         <meta charset = "UTF-8"> 
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="../../style.css">
-
         <link rel="apple-touch-icon" sizes="180x180" href="https://suanna0.github.io/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="https://suanna0.github.io/images/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="https://suanna0.github.io/images/favicon/favicon-16x16.png">
-
         <title>Diagram Appropriation - Suanna Zhong</title>
-
     </head>
-
 
     <body>
         <div class="crosshair-area">
@@ -48,133 +38,132 @@
                 </a>
             </div>
 
-        <div class = "content">
-            <h1>Diagram Appropriation</h1>
-            <p class = "text">
-                <a target = "_blank" href = "https://diagram-appropriation.glitch.me/">Diagram Appropriation</a> is my index. Through displaying collected artifacts, I reframe the time spent studying in a more playful light. <br><br>
-                Timeline: 1 week
-            </p>
+            <div class = "content">
+                <h1>Diagram Appropriation</h1>
+                <p>
+                    <a target = "_blank" href = "https://diagram-appropriation.glitch.me/">Diagram Appropriation</a> is my index. Through displaying collected artifacts, I reframe the time spent studying in a more playful light. <br><br>
+                    Timeline: 1 week
+                </p>
 
-            <h2>Process:</h2>
-            <p class = "text">
-                I was inspired by the natural shapes created by my Deterministic Finite Automaton diagrams. To make a more elegant image, I drew inspiration from Mark Lombardi's diagrams and I tried to look for ways I could change the relationship between the nodes and the edges.
-            </p>
+                <h2>Process:</h2>
+                <p>
+                    I was inspired by the natural shapes created by my Deterministic Finite Automaton diagrams. To make a more elegant image, I drew inspiration from Mark Lombardi's diagrams and I tried to look for ways I could change the relationship between the nodes and the edges.
+                </p>
 
-            <div class="reveal">
-            <div class = "content_images">
-                <img id = "content_img" alt="dfa" src="https://suanna0.github.io/images/tech/diagram_sketch.jpg">
-            </div>
-            </div>
-
-            <p class = "text">
-                Looking through loose papers, I noticed that a majority of them were done with pencil or pen. I wanted to make sure that the interface did not distract from the content, so I decided to keep it simple with black text on a white background with minimal node movement. 
-            </p>
-
-            <div class="reveal">
-            <div class="side_by_side_content">
-                <div class="side_by_side">
-                    <img src="https://suanna0.github.io/images/tech/diagram_figma.jpg">
-                </div>
-
-                <div class="side_by_side">
-                    <img src="https://suanna0.github.io/images/tech/diagram_p5_ui.jpg">
-                </div>
-            </div>
-            </div>
-
-            <h2>Graph Movement:</h2>
-            <p class = "text">
-                Since the project is 2D, it made the most sense to use p5.js for my implementation. To create my graph, I started with working <a target ="_blank" href="https://editor.p5js.org/golan/sketches/-XAvixBhM">spring code</a> created by Golan Levin. Mimicking my early sketches, I opted for bezier curves instead of straight lines to connect the nodes. 
-            </p>
-
-            <div class="reveal">
-            <div class="side_by_side_content">
-                <div class="side_by_side">
-                    <img src="https://suanna0.github.io/images/tech/diagram_p5_test.gif">
-                </div>
-
-                <div class="side_by_side">
-                    <img src="https://suanna0.github.io/images/tech/diagram_p5_test_2.gif">
-                </div>
-            </div>
-            </div>
-
-            <p class = "text">
-                I asked a few people to test the site interaction. A common piece of feedback I got was that the recoil of the springs was too fast and it was too difficult to see the topology of the graph. One person said that the oval nodes looked confusing so I decided to change the node shape to tiny A4 papers. While the rectangular nodes might not have the same, organic, quality as my sketches, it feels more intuitive to the user that the nodes represent pieces of paper.
-            </p>
-
-            <h2>Storing the Data:</h2>
-            <p class = "text">
-                Not all edges hold the same meaning. Some pages had scratch work for multiple classes and I needed a way to distinguish between different courses. Hence, I used an adjacency matrix to store the edge information. Instead of populating the matrix with 1's to represent a non-zero value, I used the course number. The nodes could be accessed through indexing into the first row of the matrix.
-            </p>
-
-            <div class="reveal">
-            <div class = "content_images">
-                <img id = "content_img" alt="p5" src="https://suanna0.github.io/images/tech/diagram_matrix.JPG">
-            </div>
-            </div>
-
-            <h2>Takeaways:</h2>
-            <p class = "text">
-                In this project, a key takeaway has been enforcing constraints for better design. Grid systems helped me organize my information to look pleasing to the eye. Working with fewer constraints, then gradually adding smaller changes taught me that less is more. At the beginning, I was not sure to include all scratch work or only scratch work done on A4 papers. However, using A4 rectangles instead of circular nodes led to a more intuitive interface. <br><br>
-                Another key takeaway was practicing asking for constructive criticism from my peers. Asking questions about the site interactions without giving any context to the project's purpose gave me insight to see interactions were effective and which were not. <br><br>
-                Additionally, thinking a few steps ahead encourages implementing features with modularity, allowing for flexible changes in future iterations. That led me to using an adjacency matrix to store the graph information which makes it easy for me to add information as I accumulate more papers in the future. <br><br>
-                Lastly, practicing honesty by openly sharing the courses I dropped or did not pass has been valuable. It was a tough decision for me to share that information but I believe that it candidly shows my personal growth as a student. <br><br>
-                <a target ="_blank" href="https://github.com/suanna0/dev-lab/tree/main/diagram_appropriation">Github</a> 
-            </p>
-
-
-            <div class="reveal">
-                <div class = "content_images">
-                    <iframe 
-                    src="https://www.youtube.com/embed/oMqjRrZmGxU">
-                    </iframe>
-                </div>
-            </div>
-
-            <h1>You may also like</h1>
-
-            <div class="gallery_content">
                 <div class="reveal">
-                    <div class="gallery">
-                        <a href="https://suanna0.github.io/pages/tech/oats.html">
-                        <img src="https://suanna0.github.io/images/tech/OATS.gif" alt="OATS">
-                        </a>
+                    <div class = "content_images">
+                        <img id = "content_img" alt="dfa" src="https://suanna0.github.io/images/tech/diagram_sketch.jpg">
                     </div>
                 </div>
 
+                <p>
+                    Looking through loose papers, I noticed that a majority of them were done with pencil or pen. I wanted to make sure that the interface did not distract from the content, so I decided to keep it simple with black text on a white background with minimal node movement. 
+                </p>
+
                 <div class="reveal">
-                    <div class="gallery">
-                        <a href="https://suanna0.github.io/pages/tech/cat_collector.html">
-                        <img src="https://suanna0.github.io/images/tech/catCollector.gif" alt="Cat Collector">
-                        </a>
+                    <div class="side_by_side_content">
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/diagram_figma.jpg">
+                        </div>
+
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/diagram_p5_ui.jpg">
+                        </div>
                     </div>
                 </div>
+
+                <h2>Graph Movement:</h2>
+                <p>
+                    Since the project is 2D, it made the most sense to use p5.js for my implementation. To create my graph, I started with working <a target ="_blank" href="https://editor.p5js.org/golan/sketches/-XAvixBhM">spring code</a> created by Golan Levin. Mimicking my early sketches, I opted for bezier curves instead of straight lines to connect the nodes. 
+                </p>
+
+                <div class="reveal">
+                    <div class="side_by_side_content">
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/diagram_p5_test.gif">
+                        </div>
+
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/diagram_p5_test_2.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <p>
+                    I asked a few people to test the site interaction. A common piece of feedback I got was that the recoil of the springs was too fast and it was too difficult to see the topology of the graph. One person said that the oval nodes looked confusing so I decided to change the node shape to tiny A4 papers. While the rectangular nodes might not have the same, organic, quality as my sketches, it feels more intuitive to the user that the nodes represent pieces of paper.
+                </p>
+
+                <h2>Storing the Data:</h2>
+                <p>
+                    Not all edges hold the same meaning. Some pages had scratch work for multiple classes and I needed a way to distinguish between different courses. Hence, I used an adjacency matrix to store the edge information. Instead of populating the matrix with 1's to represent a non-zero value, I used the course number. The nodes could be accessed through indexing into the first row of the matrix.
+                </p>
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <img id = "content_img" alt="p5" src="https://suanna0.github.io/images/tech/diagram_matrix.JPG">
+                    </div>
+                </div>
+
+                <h2>Takeaways:</h2>
+                <p>
+                    In this project, a key takeaway has been enforcing constraints for better design. Grid systems helped me organize my information to look pleasing to the eye. Working with fewer constraints, then gradually adding smaller changes taught me that less is more. At the beginning, I was not sure to include all scratch work or only scratch work done on A4 papers. However, using A4 rectangles instead of circular nodes led to a more intuitive interface. <br><br>
+                    Another key takeaway was practicing asking for constructive criticism from my peers. Asking questions about the site interactions without giving any context to the project's purpose gave me insight to see interactions were effective and which were not. <br><br>
+                    Additionally, thinking a few steps ahead encourages implementing features with modularity, allowing for flexible changes in future iterations. That led me to using an adjacency matrix to store the graph information which makes it easy for me to add information as I accumulate more papers in the future. <br><br>
+                    Lastly, practicing honesty by openly sharing the courses I dropped or did not pass has been valuable. It was a tough decision for me to share that information but I believe that it candidly shows my personal growth as a student. <br><br>
+                    <a target ="_blank" href="https://github.com/suanna0/dev-lab/tree/main/diagram_appropriation">Github</a> 
+                </p>
+
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <iframe 
+                        src="https://www.youtube.com/embed/oMqjRrZmGxU">
+                        </iframe>
+                    </div>
+                </div>
+
+                <h1>You may also like</h1>
+
+                <div class="gallery_content">
+                    <div class="reveal">
+                        <div class="gallery">
+                            <a href="https://suanna0.github.io/pages/tech/oats.html">
+                            <img src="https://suanna0.github.io/images/tech/OATS.gif" alt="OATS">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="reveal">
+                        <div class="gallery">
+                            <a href="https://suanna0.github.io/pages/tech/cat_collector.html">
+                            <img src="https://suanna0.github.io/images/tech/catCollector.gif" alt="Cat Collector">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-            
+
+            <div class = "footer">
+                <a target = "_blank" href="https://www.instagram.com/suannazhong/">
+                    <button class = "button">IG</button>
+                </a>
+
+                <a target = "_blank" href="https://www.linkedin.com/in/suannaz/">
+                    <button class = "button">Linkedin</button>
+                </a>
+
+                <a target = "_blank" href="https://github.com/suanna0/suanna0/blob/main/Resume.pdf"> 
+                    <button class = "button">Resume</button>
+                </a>
+
+                <a target = "_blank" href="https://github.com/suanna0">
+                    <button class = "button">Github</button>
+                </a>
+                
+            </div>
         </div>
-
-        <div class = "footer">
-            <a target = "_blank" href="https://www.instagram.com/suannazhong/">
-                <button class = "button">IG</button>
-            </a>
-
-            <a target = "_blank" href="https://www.linkedin.com/in/suannaz/">
-                <button class = "button">Linkedin</button>
-            </a>
-
-            <a target = "_blank" href="https://github.com/suanna0/suanna0/blob/main/Resume.pdf"> 
-                <button class = "button">Resume</button>
-            </a>
-
-            <a target = "_blank" href="https://github.com/suanna0">
-                <button class = "button">Github</button>
-            </a>
-            
-        </div>
-        
-    </div>
-    <script src = "../../script.js"></script>
+        <script src = "../../script.js"></script>
     </body>
 
 </html>

@@ -1,175 +1,166 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-
     <head>
         <meta charset = "UTF-8"> 
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="../../style.css">
-
         <link rel="apple-touch-icon" sizes="180x180" href="https://suanna0.github.io/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="https://suanna0.github.io/images/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="https://suanna0.github.io/images/favicon/favicon-16x16.png">
-
         <title>Malloc Visualizer - Suanna Zhong</title>
-
     </head>
 
-
     <body>
-    <div class="crosshair-area">
-        <div class = "navbar">
-            <a href="https://suanna0.github.io">
-                <button class = "button">
-                    <div class = "small">
-                        <img src="https://suanna0.github.io/images/about/zhong.gif">
+        <div class="crosshair-area">
+            <div class = "navbar">
+                <a href="https://suanna0.github.io">
+                    <button class = "button">
+                        <div class = "small">
+                            <img src="https://suanna0.github.io/images/about/zhong.gif">
+                        </div>
+                    </button>
+                </a>
+                
+                <a href="https://suanna0.github.io/pages/photo.html">
+                    <button class = "button">Photo</button>
+                </a>
+                
+                <a href="https://suanna0.github.io/pages/tech.html">
+                    <button class = "button">Tech</button>
+                </a>
+
+                <a href="https://suanna0.github.io/pages/film.html">
+                    <button class = "button">Audiovisual</button>
+                </a>
+
+                <a href="https://suanna0.github.io/pages/designillustration.html">
+                    <button class = "button">Illustration</button>
+                </a>
+            </div>
+
+            <div class = "content">
+                <h1>Malloc Visualizer (Under Construction) </h1>
+                <p>
+                    Web Development, 2024-2025. <br><br>
+                    <a href = "https://malloc-visualizer.glitch.me/">Malloc</a> is a lab assigned in the CMU course, 15213: Introduction to Computer Systems. After the lab, the students gain a deeper understanding of malloc at a systems level, fluency in pointer arithmetic, and practice writing performance-critical and bug-free systems code. <br><br>
+                    During the lab, I saw an opportunity to make improvements that could help students learn the abstract concepts through playful visual diagrams. 
+                </p>
+
+                <div class="reveal">
+                    <div class="side_by_side_content">
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_before.jpg">
+                        </div>
+
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_after.gif">
+                        </div>
                     </div>
-                </button>
-            </a>
+                </div>
+
+                <h2>Process:</h2>
+                <p>
+                    Students are encouraged to write modular code to help create flexible changes in the future and I wanted the design to reflect that. Hence, I drew inspiration from Swiss Design principles such as enforcing a modular grid system and minimal elements.
+                </p>
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <img id = "content_img" src="https://suanna0.github.io/images/tech/malloc_branding.jpg">
+                    </div>
+                </div>
+
+                <div class="reveal">
+                    <div class="side_by_side_content">
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_swiss_grid_1.jpg">
+                        </div>
+
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_swiss_grid_2.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <p> 
+                    I wanted the memory blocks to have personality and give the user a sense of agency when they interacted with them. Rounded corners also evoke a sense of friendliness. 
+                </p>
+
+                <div class="reveal">
+                    <div class="side_by_side_content">
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_vm_demo.gif">
+                        </div>
+
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_explicit_demo.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Visualizing two data structures:</h2>
+
+                <p>
+                    When I did the lab for the first time, I had a difficult time grasping the concept that heap and the explicit free list are two separate data structures, and that if the author chooses to implement LIFO insertion, the blocks in the free list may be out of address order. 
+                </p>
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <img id = "content_img" src="https://suanna0.github.io/images/tech/malloc_keeping_track.jpg">
+                    </div>
+                </div>
+                <p">
+                    I wanted to clearly establish that concept when describing the difference between the implicit and explicit list. Hence, the explicit list has lines that point blocks in the heap to their corresponding location in the free list.
+                </p>
+
+                <div class="reveal">
+                    <div class="side_by_side_content">
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_implicit.jpg">
+                        </div>
+
+                        <div class="side_by_side">
+                            <img src="https://suanna0.github.io/images/tech/malloc_explicit.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Block Insertion:</h2>
+
+                <p>
+                    A challenging part of the malloc lab is implementing four kinds of block insertion as well as the edge cases that come with them. To maintain consistency with the explicit list illustration, I used the two separate data structures–the heap and the free list–to demonstrate what is happening at each case.
+                </p>
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <iframe src="https://www.youtube.com/embed/HcmDwnkOMug" > 
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+
             
-            <a href="https://suanna0.github.io/pages/photo.html">
-                <button class = "button">Photo</button>
-            </a>
-            
-            <a href="https://suanna0.github.io/pages/tech.html">
-                <button class = "button">Tech</button>
-            </a>
 
-            <a href="https://suanna0.github.io/pages/film.html">
-                <button class = "button">Audiovisual</button>
-            </a>
+            <div class = "footer">
+                <a target = "_blank" href="https://www.instagram.com/suannazhong/">
+                    <button class = "button">IG</button>
+                </a>
 
-            <a href="https://suanna0.github.io/pages/designillustration.html">
-                <button class = "button">Illustration</button>
-            </a>
-        </div>
+                <a target = "_blank" href="https://www.linkedin.com/in/suannaz/">
+                    <button class = "button">Linkedin</button>
+                </a>
 
-        <div class = "content">
-            <h1>Malloc Visualizer (Under Construction) </h1>
-            <p class = "text">
-                Web Development, 2024-2025. <br><br>
-                <a href = "https://malloc-visualizer.glitch.me/">Malloc</a> is a lab assigned in the CMU course, 15213: Introduction to Computer Systems. After the lab, the students gain a deeper understanding of malloc at a systems level, fluency in pointer arithmetic, and practice writing performance-critical and bug-free systems code. <br><br>
-                During the lab, I saw an opportunity to make improvements that could help students learn the abstract concepts through playful visual diagrams. 
-            </p>
+                <a target = "_blank" href="https://github.com/suanna0/suanna0/blob/main/Resume.pdf"> 
+                    <button class = "button">Resume</button>
+                </a>
 
-            <div class="reveal">
-                <div class="side_by_side_content">
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_before.jpg">
-                    </div>
-
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_after.gif">
-                    </div>
-                </div>
+                <a target = "_blank" href="https://github.com/suanna0">
+                    <button class = "button">Github</button>
+                </a>
             </div>
-
-            <h2>Process:</h2>
-            <p class = "text">
-                Students are encouraged to write modular code to help create flexible changes in the future and I wanted the design to reflect that. Hence, I drew inspiration from Swiss Design principles such as enforcing a modular grid system and minimal elements.
-            </p>
-
-            <div class="reveal">
-                <div class = "content_images">
-                    <img id = "content_img" src="https://suanna0.github.io/images/tech/malloc_branding.jpg">
-                </div>
-            </div>
-
-            <div class="reveal">
-                <div class="side_by_side_content">
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_swiss_grid_1.jpg">
-                    </div>
-
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_swiss_grid_2.jpg">
-                    </div>
-                </div>
-            </div>
-
-            <p class = "text"> 
-                I wanted the memory blocks to have personality and give the user a sense of agency when they interacted with them. Rounded corners also evoke a sense of friendliness. 
-            </p>
-
-            <div class="reveal">
-                <div class="side_by_side_content">
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_vm_demo.gif">
-                    </div>
-
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_explicit_demo.gif">
-                    </div>
-                </div>
-            </div>
-
-            <h2>Visualizing two data structures:</h2>
-
-            <p class = "text">
-                When I did the lab for the first time, I had a difficult time grasping the concept that heap and the explicit free list are two separate data structures, and that if the author chooses to implement LIFO insertion, the blocks in the free list may be out of address order. 
-            </p>
-
-            <div class="reveal">
-                <div class = "content_images">
-                    <img id = "content_img" src="https://suanna0.github.io/images/tech/malloc_keeping_track.jpg">
-                </div>
-            </div>
-            <p class = "text">
-                I wanted to clearly establish that concept when describing the difference between the implicit and explicit list. Hence, the explicit list has lines that point blocks in the heap to their corresponding location in the free list.
-            </p>
-
-            <div class="reveal">
-                <div class="side_by_side_content">
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_implicit.jpg">
-                    </div>
-
-                    <div class="side_by_side">
-                        <img src="https://suanna0.github.io/images/tech/malloc_explicit.jpg">
-                    </div>
-                </div>
-            </div>
-
-            <h2>Block Insertion:</h2>
-
-            <p class = "text">
-                A challenging part of the malloc lab is implementing four kinds of block insertion as well as the edge cases that come with them. To maintain consistency with the explicit list illustration, I used the two separate data structures–the heap and the free list–to demonstrate what is happening at each case.
-            </p>
-
-            <div class="reveal">
-                <div class = "content_images">
-                    <iframe src="https://www.youtube.com/embed/HcmDwnkOMug" > 
-                    </iframe>
-                </div>
-            </div>
-
-        </div>
-
-        
-
-        <div class = "footer">
-            <a target = "_blank" href="https://www.instagram.com/suannazhong/">
-                <button class = "button">IG</button>
-            </a>
-
-            <a target = "_blank" href="https://www.linkedin.com/in/suannaz/">
-                <button class = "button">Linkedin</button>
-            </a>
-
-            <a target = "_blank" href="https://github.com/suanna0/suanna0/blob/main/Resume.pdf"> 
-                <button class = "button">Resume</button>
-            </a>
-
-            <a target = "_blank" href="https://github.com/suanna0">
-                <button class = "button">Github</button>
-            </a>
-            
-        </div>
-    </div>  
-    <script src = "../../script.js"></script>
+        </div>  
+        <script src = "../../script.js"></script>
     </body>
 
 </html>
