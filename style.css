@@ -24,13 +24,13 @@ p {
 }
 
 .navbar {
-  padding: 30px 25vw 0px 24vw;
+  padding: 0px 25vw;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
 .footer {
-  padding: 80px 25vw;
+  padding: 0px 25vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
