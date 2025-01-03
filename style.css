@@ -54,9 +54,10 @@ div.gallery img {
   height: auto;
 }
 
-div.small img {
-  width: 454px;
-  height: 196px;
+/* specifically for typing gif */
+div.small img { 
+  width: 229px;
+  height: 99px;
 }
 
 
