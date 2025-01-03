@@ -55,15 +55,16 @@ div.gallery img {
 }
 
 /* specifically for typing gif */
-/* div.small img { 
+div.small img { 
   width: 229px;
   height: 99px;
-} */
+}
 
-div.small img { 
+/* specifically for square animation */
+/* div.small img { 
   width: 48px;
   height: 48px;
-}
+} */
 
 
 div.side_by_side {
