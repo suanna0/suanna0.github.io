@@ -43,7 +43,7 @@ p {
 
 .gallery_content {
   column-count: 2;
-  column-gap: 20px;
+  column-gap: 5px;
 }
 
 div.gallery {
@@ -80,7 +80,7 @@ div.side_by_side {
 
 .side_by_side_content {
   column-count: 2;
-  column-gap: 20px;
+  column-gap: 5px;
 }
 
 div.side_by_side img{
