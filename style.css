@@ -47,7 +47,7 @@ p {
 }
 
 div.gallery {
-  padding: 10px 0px; 
+  padding: 2.5px 0px; 
   transition: filter 1s ease; /* Smooth transition effect */
 }
 
@@ -175,7 +175,7 @@ iframe {
   }
 
   div.gallery {
-    padding: 5px 0px; 
+    padding: 2.5px 0px; 
   }
 
   [class*="gallery_content"] {
