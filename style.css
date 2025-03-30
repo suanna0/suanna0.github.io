@@ -55,7 +55,7 @@ ol {
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
-  bottom: 10px;
+  top: 5px;
   left: 5px;
   visibility: hidden;
   background-color: rgb(255, 255, 255, 0);
