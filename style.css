@@ -43,6 +43,34 @@ ol {
   grid-template-columns: repeat(5, 1fr);
 }
 
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  bottom: 10px;
+  left: 5px;
+  visibility: hidden;
+  background-color: rgb(255, 255, 255, 0);
+  color: white;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .footer {
   padding: 0px 25vw;
   display: grid;
