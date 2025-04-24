@@ -37,6 +37,21 @@ ol {
   cursor: pointer;
 }
 
+.footer-button {
+  background-color: #FFFFFF;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  padding: 0px 0px;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;       
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
 .navbar {
   padding: 0px 25vw;
   display: grid;
@@ -44,7 +59,7 @@ ol {
 }
 
 .footer {
-  padding: 0px 25vw;
+  padding: 0px 40vw 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -186,6 +201,15 @@ iframe {
     color: 	#222222;
     cursor: pointer;
   }
+
+  [class*="footer-button"] {
+    font-size: 10px;
+    color: 	#aaaaaa;
+  }
+
+  [class*="footer"] {
+    padding: 20px 0px;
+  }
   
   [class*="content"] {
     padding: 0px 0px; 
@@ -200,7 +224,6 @@ iframe {
     width: 100%;
   }
     
-
   [class*="content_images"] {
     text-align: center;
     padding: 0px 0px; 
@@ -211,11 +234,6 @@ iframe {
     width: 100%;
   }
 
-  [class*="footer"] {
-    padding: 3vh 0vw;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
 
   iframe {
     width: 100%;  
