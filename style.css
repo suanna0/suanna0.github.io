@@ -46,7 +46,7 @@ html {
 video.overlay-video {
   position: absolute;
   top: 0;
-  width: 50vw;
+  width: 100vw;
   height: 100vh;
   object-fit: cover;
   pointer-events: none;
@@ -60,8 +60,7 @@ video.cover-left {
 }
 
 video.cover-right {
-  right: 0;
-  left: auto;
+  left: 0;
 }
 
 .half span {
@@ -84,8 +83,8 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  color: #ffffff;
   cursor: pointer;
-  font-weight: 700;
 }
 
 a:active {
