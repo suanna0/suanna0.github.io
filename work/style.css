@@ -120,7 +120,7 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
   
-  filter: grayscale(50%) blur(5px);
+  filter: grayscale(50%) blur(4px);
 
 }
 
