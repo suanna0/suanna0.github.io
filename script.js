@@ -1,19 +1,26 @@
-// script.js
-document.addEventListener("DOMContentLoaded", function () {
-    const reveals = document.querySelectorAll(".reveal");
+const commercialText = document.getElementById('commercialText');
+const personalText = document.getElementById('personalText');
+const videoCommercial = document.getElementById('videoCommercial');
+const videoPersonal = document.getElementById('videoPersonal');
 
-    function checkReveal() {
-        const windowHeight = window.innerHeight;
-        reveals.forEach(reveal => {
-            const elementTop = reveal.getBoundingClientRect().top;
-            const isVisible = elementTop < windowHeight - 50;  // Adjust trigger point if needed
-            if (isVisible) {
-                reveal.classList.add("reveal-visible");
-            }
-        });
-    }
+commercialText.addEventListener('mouseenter', () => {
+  videoCommercial.style.opacity = 1;
+  videoCommercial.play();
+});
 
-    // Event listeners for scroll and initial check
-    window.addEventListener("scroll", checkReveal);
-    checkReveal(); // Trigger initial reveal on page load
+commercialText.addEventListener('mouseleave', () => {
+  videoCommercial.style.opacity = 0;
+  videoCommercial.pause();
+  videoCommercial.currentTime = 0;
+});
+
+personalText.addEventListener('mouseenter', () => {
+  videoPersonal.style.opacity = 1;
+  videoPersonal.play();
+});
+
+personalText.addEventListener('mouseleave', () => {
+  videoPersonal.style.opacity = 0;
+  videoPersonal.pause();
+  videoPersonal.currentTime = 0;
 });
