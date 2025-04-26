@@ -137,6 +137,7 @@ a:focus {
 }
 
 h1 {
+  letter-spacing: -0.01em;
   font-family: "elza-round-variable", sans-serif;
   font-variation-settings: "wght" 475;
   font-size: 48px;
