@@ -70,7 +70,6 @@ ol {
 }
 
 div.gallery {
-  padding: 2.5px 0px; 
   transition: filter 1s ease; /* Smooth transition effect */
 }
 
