@@ -61,7 +61,7 @@ ol {
 .footer {
   padding: 0px 35vw 20px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .gallery_content {
