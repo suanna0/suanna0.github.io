@@ -60,6 +60,7 @@ ol {
 
 .footer {
   padding: 0px 35vw 20px;
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
