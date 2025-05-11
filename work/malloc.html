@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
 
-    <title>malloclab.com | Suanna Zhong</title>
+    <title>Malloc Visualizer | Suanna Zhong</title>
   </head>
 
   <body>
@@ -37,7 +37,7 @@
           autoplay muted loop playsinline style="width: 100%; height: auto;">
         </video>
         <div class="empty_box"></div>
-        <h1>malloclab.com</h1>
+        <h1>Malloc Visualizer</h1>
         <h3>
           Front-End Web Development, Motion<br />
           Duration: 7 months
@@ -48,7 +48,7 @@
               <a target = "_blank" href = "https://www.malloclab.com/">Malloc</a> 
               is a lab assigned in the CMU course, 15213: Introduction to 
               Computer Systems. After the lab, the students gain a deeper 
-              understanding of the malloc library's implementation at a systems 
+              understanding of the <code>malloc</code> library's implementation at a systems 
               level, fluency in pointer arithmetic, and practice writing and 
               debugging systems code to meet performance requirements. <br><br>
               During the lab, I saw an opportunity to make improvements that 
@@ -60,34 +60,42 @@
           <div class="content_images">
             <img loading = "lazy"
               id="content_img"
-              src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc_block.gif?v=1746206626669">
+              src="https://cdn.glitch.global/66e497d9-d0f8-4357-b2ae-33c3e94f0744/welcome.gif?v=1744000016795m">
           </div>
         </div>
         <p>
           Students are encouraged to write modular code to help create 
           flexible changes in the future and I wanted the design to reflect 
           that. Hence, I drew inspiration from Swiss Design principles such 
-          as enforcing a modular grid system and minimal elements.
-          <br><br>
-          Additionally, I wanted this project to serve as a helpful roadmap, 
-          so I took inspiration from New York City Subway design.
+          as enforcing a modular grid system and minimal elements, as well as 
+          the visual language of the NYC Subway system.
         </p>
 
-        <div class="content_images">
-          <img loading = "lazy"
+        <div class="side_by_side_content">
+          <div class="side_by_side">
+            <img loading = "lazy"
             id="content_img"
-            src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-ds.png?v=1746945562031"
-          />
+            src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-ds.png?v=1746945562031">
+          </div>
+
+          <div class="side_by_side">
+            <img loading = "lazy"
+              src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-ds-r.png?v=1746947342902"
+            />
+          </div>
         </div>
+
+        <div class="empty_box"></div>
+
 
         <div class="gallery_content">
           <div>
             <p>
               The opening page is interactive, functioning as a black-box 
-              representation of malloc. It mimics a calendar interface—an 
+              representation of <code>malloc</code>. It mimics a calendar interface—an 
               interaction that is usually familiar to college students. <br><br>
               While users can overlap blocks on the landing page, this does not 
-              reflect the behavior of malloc, where overlapping is not allowed. 
+              reflect the behavior of <code>malloc</code>, where overlapping is not allowed. 
               This visual choice was made purely for aesthetic purposes.
             </p>
           </div>
@@ -95,7 +103,7 @@
           <div class="video-container">
             <video autoplay muted loop>
               <source
-                src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-landing-interaction.mp4?v=1746946186402"
+                src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-landing-interaction.mp4?v=1746947171742"
                 type="video/mp4"
               />
             </video>
@@ -122,6 +130,14 @@
 
         <p>
             When I did the lab for the first time, I had a difficult time grasping the concept that heap and the explicit free list are two separate data structures, and that if the author chooses to implement LIFO insertion, the blocks in the free list may be out of address order. 
+        </p>
+
+        <p>
+          I wanted to clearly establish that concept when describing the difference between the implicit and explicit list. Hence, the explicit list has lines that point blocks in the heap to their corresponding location in the free list.
+        </p>
+        <h2>Insertion:</h2>
+        <p>
+          A challenging part of the lab is implementing four kinds of block insertion as well as the edge cases that come with them. To maintain consistency with the explicit list illustration, I used the two separate data structures–the heap and the free list–to demonstrate what is happening at each case.
         </p>
 
         <h1>You may also like</h1>
