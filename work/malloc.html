@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ckh5shu.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <title>malloclab.com | Suanna Zhong</title>
+  </head>
+
+  <body>
+    <div class="crosshair-area">
+      
+      <div class="navbar">
+        <a href="../">
+          <button class="button">Suanna Zhong</button>
+        </a>
+
+        <a href="landing.html">
+          <button class="button">Work</button>
+        </a>
+
+        <a href="about.html">
+          <button class="button">About</button>
+        </a>
+      </div>
+
+      <div class="content">
+        <video src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-demo.mp4?v=1746944718960" 
+          autoplay muted loop playsinline style="width: 100%; height: auto;">
+        </video>
+        <div class="empty_box"></div>
+        <h1>malloclab.com</h1>
+        <h3>
+          Front-End Web Development, Motion<br />
+          Duration: 7 months
+        </h3>
+        <div class="gallery_content">
+          <div>
+            <p>
+              <a target = "_blank" href = "https://www.malloclab.com/">Malloc</a> 
+              is a lab assigned in the CMU course, 15213: Introduction to 
+              Computer Systems. After the lab, the students gain a deeper 
+              understanding of the malloc library's implementation at a systems 
+              level, fluency in pointer arithmetic, and practice writing and 
+              debugging systems code to meet performance requirements. <br><br>
+              During the lab, I saw an opportunity to make improvements that 
+              could help students learn the abstract concepts through playful 
+              visual diagrams. 
+            </p>
+          </div>
+
+          <div class="content_images">
+            <img loading = "lazy"
+              id="content_img"
+              src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc_block.gif?v=1746206626669">
+          </div>
+        </div>
+        <p>
+          Students are encouraged to write modular code to help create 
+          flexible changes in the future and I wanted the design to reflect 
+          that. Hence, I drew inspiration from Swiss Design principles such 
+          as enforcing a modular grid system and minimal elements.
+          <br><br>
+          Additionally, I wanted this project to serve as a helpful roadmap, 
+          so I took inspiration from New York City Subway design.
+        </p>
+
+        <div class="content_images">
+          <img loading = "lazy"
+            id="content_img"
+            src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-ds.png?v=1746945562031"
+          />
+        </div>
+
+        <div class="gallery_content">
+          <div>
+            <p>
+              The opening page is interactive, functioning as a black-box 
+              representation of malloc. It mimics a calendar interface—an 
+              interaction that is usually familiar to college students. <br><br>
+              While users can overlap blocks on the landing page, this does not 
+              reflect the behavior of malloc, where overlapping is not allowed. 
+              This visual choice was made purely for aesthetic purposes.
+            </p>
+          </div>
+
+          <div class="video-container">
+            <video autoplay muted loop>
+              <source
+                src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-landing-interaction.mp4?v=1746946186402"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+
+        <div class="content_images">
+          <img loading = "lazy"
+            id="content_img"
+            src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc_site_structure.png?v=1746945455827">
+        </div>
+
+        <p>
+            Using Adobe After Effects, I created playful animations to illustrate specific concepts.
+        </p>
+
+        <div class="content_images">
+          <img loading = "lazy"
+            id="content_img"
+            src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc_block.gif?v=1746206626669">
+        </div>
+
+        <h2>Visualizing two data structures:</h2>
+
+        <p>
+            When I did the lab for the first time, I had a difficult time grasping the concept that heap and the explicit free list are two separate data structures, and that if the author chooses to implement LIFO insertion, the blocks in the free list may be out of address order. 
+        </p>
+
+        <h1>You may also like</h1>
+
+        <div class="gallery_content">
+          <div class="gallery">
+            <a href="lunar_gala_photo.html">
+              <img
+                src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/LG_2.jpeg?v=1745689516910"
+                alt="Lunar Gala Photography"
+              />
+            </a>
+          </div>
+
+            <div class="gallery">
+              <a href="blasting_sophie.html">
+                <img
+                  src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/blasting_sophie_thumbnail.jpg?v=1745562698367"
+                  alt="Blasting Sophie"
+                />
+              </a>
+            </div>
+          </div>
+        <div class = "footer">
+          <h3>
+            © Suanna Zhong 2025. All rights reserved.
+          </h3>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
