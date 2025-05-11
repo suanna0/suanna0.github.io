@@ -1,25 +1,12 @@
-.text {
+.text, p, ol, .button, h1, h2, b {
   font-family: "neue-haas-grotesk-display", sans-serif;
-  font-weight: 500;
   font-style: normal;
-  font-size: 14px;
   color: #222222;
 }
 
-p {
-  font-family: "neue-haas-grotesk-display", sans-serif;
+.text, p, ol, .button, b, h2 {
   font-weight: 500;
-  font-style: normal;
   font-size: 14px;
-  color: #222222;
-}
-
-ol {
-  font-family: "neue-haas-grotesk-display", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 14px;
-  color: #222222;
 }
 
 .button {
@@ -28,41 +15,17 @@ ol {
   text-align: right;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
   padding: 0px 0px;
-  font-family: "neue-haas-grotesk-display", sans-serif;
-  font-weight: 500;
-  font-style: normal;       
-  color: #222222;
-  cursor: pointer;
-}
-
-.footer-button {
-  background-color: #FFFFFF;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  padding: 0px 0px;
-  font-family: "neue-haas-grotesk-display", sans-serif;
-  font-weight: 500;
-  font-style: normal;       
-  color: #aaaaaa;
   cursor: pointer;
 }
 
 .navbar {
-  padding: 0px 25vw;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
-.footer {
-  padding: 0px 35vw 20px;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.footer p {
+  color: #aaaaaa;
 }
 
 .gallery_content {
@@ -90,14 +53,8 @@ div.small img {
   height: 80px;
 }
 
-/* specifically for square animation */
-/* div.small img { 
-  width: 48px;
-  height: 48px;
-} */
 
-
-div.side_by_side {
+.side_by_side {
   padding: 2px 0px; 
 }
 
@@ -106,13 +63,13 @@ div.side_by_side {
   column-gap: 5px;
 }
 
-div.side_by_side img{
+.side_by_side img{
   width: 100%;
   height: auto;
 }
 
-.content {
-  padding: 5vh 25vw; 
+.content, .footer, .navbar {
+  padding: 5px 25vw; 
 }
 
 .content_images {
@@ -124,50 +81,24 @@ div.side_by_side img{
   height: auto;
 }
 
-a:link { text-decoration: none; cursor: pointer;}
-
-a:visited { text-decoration: none; cursor: pointer;}
-
-a:hover { text-decoration: none; cursor: pointer;}
-
-a:active { text-decoration: none; cursor: pointer;}
-
-a:focus { text-decoration: none; cursor: pointer;}
+a:link, a:visited, a:hover, a:active, a:focus { 
+  text-decoration: none; cursor: pointer;
+}
 
 h1 {
-  font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 36px;
-  color: #222222;
 }
 
-h2 {
-  font-family: "neue-haas-grotesk-display", sans-serif;
+h2, b {
   font-weight: 700;
-  font-style: normal;       
-  font-size: 14px;
-  color: #222222;
 }
-
-b {
-  font-family: "neue-haas-grotesk-display", sans-serif;
-  font-weight: 700;
-  font-style: normal;       
-  font-size: 14px;
-  color: #222222;
-}
-
 
 iframe {
   text-align: center;
   width: 50vw;  
   height: 28vw;  
 }
-/* 
-.crosshair-area:hover {
-  cursor: crosshair;
-} */
 
 .reveal {
   opacity: 0;
@@ -184,7 +115,6 @@ iframe {
 @media only screen and (max-width: 850px) {
   /* For mobile phones: */
   [class*="navbar"] {
-    padding: 3vh 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -200,18 +130,9 @@ iframe {
     color: 	#222222;
     cursor: pointer;
   }
-
-  [class*="footer-button"] {
-    font-size: 12px;
-    color: 	#aaaaaa;
-  }
-
-  [class*="footer"] {
-    padding: 20px 0px;
-  }
   
-  [class*="content"] {
-    padding: 0px 0px; 
+  .content, .footer, .navbar {
+    padding: 3px 0px; 
   }
 
   div.gallery {
@@ -232,7 +153,6 @@ iframe {
     padding: 5px 0px; 
     width: 100%;
   }
-
 
   iframe {
     width: 100%;  
