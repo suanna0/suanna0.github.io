@@ -5,14 +5,13 @@ body {
 .crosshair-area {
   display: grid;
   column-count: 1;
-  max-width: 1500px; /* or whatever max width makes sense */
-  margin: 0 auto;     /* center the grid on large screens */
-  padding: 1rem;      /* optional: add spacing around it */
+  max-width: 1500px;
+  margin: 0 auto;    
+  padding: 1rem;
 }
 
 code {
   font-family: "source code pro", Courier, monospace;
-  font-size: 15px;
   color: #aaaaaa;
 }
 
@@ -118,37 +117,14 @@ div.side_by_side img {
   height: auto;
 }
 
-a:link {
-  color: #00ff00;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:visited {
+a:link, a:visited, a:hover, a:active, a:focus {
   color: #00ff00;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
-  color: #00ff00;
-  text-decoration: none;
-  cursor: pointer;
-  
   filter: grayscale(50%) blur(4px);
-
-}
-
-a:active {
-  color: #00ff00;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:focus {
-  color: #00ff00;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 h1 {
@@ -175,9 +151,6 @@ iframe {
 @media only screen and (max-width: 850px) {
   p {
     font-size: 14px;
-  }
-  code {
-    font-size: 13px
   }
   h1 {
     font-size: 24px;
