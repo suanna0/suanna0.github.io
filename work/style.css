@@ -124,7 +124,7 @@ a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 a:hover {
-  filter: grayscale(50%) blur(4px);
+  filter: blur(0.2em);
 }
 
 h1 {
