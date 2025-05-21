@@ -119,8 +119,12 @@ iframe {
     color: 	#222222;
     cursor: pointer;
   }
+
+  .gallery_content {
+    column-count: 2;
+  }
   
-  .content, .footer, .navbar {
+  .content, .footer, .navbar, .gallery-container {
     padding: 3px 0px; 
   }
 
