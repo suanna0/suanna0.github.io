@@ -30,7 +30,7 @@
 
 
 .gallery_content {
-  column-count: 4;
+  column-count: 3;
   column-gap: 5px;
 }
 
@@ -69,12 +69,8 @@ div.small img {
   height: auto;
 }
 
-.gallery-container, .footer, .navbar  {
-  padding: 0px 50px; 
-}
-
-.content{
-  padding: 5px 25vw; 
+.gallery-container, .footer, .navbar, .content  {
+  padding: 0px 15vw; 
 }
 
 .content_images {
