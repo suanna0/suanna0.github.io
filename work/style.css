@@ -37,7 +37,7 @@ h3 {
   overflow: hidden;
 }
 
-.video-container video {
+.video-container video, .gallery img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* or 'contain' depending on the desired effect */
@@ -80,18 +80,13 @@ h3 {
   column-gap: 10px;
 }
 
-div.gallery {
+.gallery {
   position: relative;
-  padding: 5px 0px;
   transition: filter 1s ease; /* Smooth transition effect */
+  padding: 5px 0px;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.side_by_side {
+.side_by_side {
   padding: 5px 0px;
 }
 
