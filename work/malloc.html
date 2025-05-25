@@ -175,7 +175,25 @@
         <h3>
           © Suanna Zhong 2025. All rights reserved.
         </h3>
+        <button class = "button" id="backToTop" title="Back to Top">Back to Top ↑</button>
+
       </div>
     </div>
+    <script>
+      // Show the button when scrolling down
+      window.onscroll = function () {
+        const btn = document.getElementById("backToTop");
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      };
+
+      // Scroll to top when button is clicked
+      document.getElementById("backToTop").onclick = function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+    </script>
   </body>
 </html>
