@@ -157,6 +157,11 @@ iframe {
   grid-template-columns: 1fr 1fr;
 }
 
+::selection {
+  background: #00ff00; /* Highlight background */
+  color: black;         /* Text color inside the highlight */
+}
+
 
 @media only screen and (max-width: 850px) {
   p {
