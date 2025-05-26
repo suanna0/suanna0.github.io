@@ -54,6 +54,7 @@ h3 {
 .navbar {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  padding: 0px 0px 20px 0px;
 }
 
 .empty_box {
