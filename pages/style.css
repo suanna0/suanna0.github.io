@@ -9,7 +9,7 @@
   font-size: 14px;
 }
 
-.button {
+.button, .more{
   background-color: #FFFFFF;
   border: none;
   text-align: right;
@@ -17,6 +17,14 @@
   display: inline-block;
   padding: 0px 0px;
   cursor: pointer;
+}
+
+code {
+  vertical-align: super;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 8px;
+  color: #222222;
 }
 
 .navbar {
@@ -30,16 +38,12 @@
 
 
 .gallery_content {
-  column-count: 4;
+  column-count: 2;
   column-gap: 5px;
 }
 
 div.gallery {
   transition: filter 1s ease; /* Smooth transition effect */
-}
-
-div.gallery:hover {
-  filter: brightness(50%); /* Darken the image by 50% */
 }
 
 div.gallery img {
@@ -70,7 +74,7 @@ div.small img {
 }
 
 .gallery-container, .footer, .navbar, .content  {
-  padding: 0px 20vw; 
+  padding: 0px 25vw; 
 }
 
 .content_images {
@@ -121,7 +125,8 @@ iframe {
   }
 
   .gallery_content {
-    column-count: 2;
+    column-count: 1;
+    width: 100%;
   }
   
   .content, .footer, .navbar, .gallery-container {

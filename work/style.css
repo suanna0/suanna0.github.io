@@ -2,14 +2,6 @@ body {
   background-color: #111111;
 }
 
-.crosshair-area {
-  display: grid;
-  column-count: 1;
-  max-width: 1500px;
-  margin: 0 auto;    
-  padding: 1rem;
-}
-
 code {
   font-family: "source code pro", Courier, monospace;
   color: #aaaaaa;
@@ -102,6 +94,7 @@ div.side_by_side img {
 
 .content {
   padding: 5vh 50px 10px 50px;
+  max-width: 1500px;
 }
 
 .content_images {
@@ -208,5 +201,9 @@ iframe {
   iframe {
     width: 100%;
     height: 56vw;
+  }
+
+  .side_by_side_content {
+    column-gap: 5px;
   }
 }
