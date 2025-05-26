@@ -52,9 +52,8 @@ h3 {
 }
 
 .navbar {
-  padding: 10px 50px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .empty_box {
@@ -93,8 +92,10 @@ div.side_by_side img {
 }
 
 .content {
-  padding: 5vh 50px 10px 50px;
+  box-sizing: border-box;
+  padding: 10px 50px 10px 50px;
   max-width: 1500px;
+  margin: 0 auto;
 }
 
 .content_images {
