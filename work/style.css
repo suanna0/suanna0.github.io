@@ -91,7 +91,7 @@ h3 {
 }
 
 .side_by_side {
-  padding: 5px 0px;
+  padding: 2.5px 0px;
 }
 
 .side_by_side_content {
@@ -112,7 +112,10 @@ div.side_by_side img {
 }
 
 .content_images {
+  padding: 2.5px 0px;
   width: 100%;
+  height: auto;
+
 }
 
 #content_img {
@@ -199,13 +202,7 @@ iframe {
   }
 
   [class*="content_images"] {
-    text-align: center;
-    padding: 0px 0px;
-  }
-
-  #content_img {
     padding: 5px 0px;
-    width: 100%;
   }
 
   iframe {
@@ -213,7 +210,8 @@ iframe {
     height: 56vw;
   }
 
-  .side_by_side_content {
-    column-gap: 5px;
-  }
+  .side_by_side {
+  padding: 2.5px 0px;
+}
+
 }
