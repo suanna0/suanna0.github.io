@@ -50,6 +50,7 @@ h3 {
 
 .button {
   background-color: #111111;
+  line-height: 100%;
   border: none;
   text-align: right;
   text-decoration: none;
@@ -130,16 +131,13 @@ a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 h1, h2 {
+  line-height: 105%;
   letter-spacing: -0.010em;
   font-family: "arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
   color: #ffffff;
-}
-
-h1, h2, button {
-  line-height: 105%;
 }
 
 h2 {
