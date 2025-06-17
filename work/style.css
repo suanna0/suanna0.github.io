@@ -16,6 +16,10 @@ p, .role, .name, button, h3 {
   color: #ffffff;
 }
 
+.landing_desc {
+  margin-right: 20vw;
+}
+
 .role {
       text-align: right;
 }
@@ -123,7 +127,7 @@ a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 h1, h2 {
-  line-height: 110%;
+  line-height: 105%;
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -161,9 +165,14 @@ iframe {
 
 
 @media only screen and (max-width: 850px) {
+  .landing_desc {
+    margin-right: 0px;
+  }
+
   p, button {
     font-size: 14px;
   }
+  
   h1 {
     font-size: 24px;
   }
