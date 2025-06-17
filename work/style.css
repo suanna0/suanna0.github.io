@@ -130,7 +130,7 @@ a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 h1, h2 {
-  letter-spacing: -0.015em;
+  letter-spacing: -0.010em;
   line-height: 105%;
   font-family: "arial", sans-serif;
   font-weight: 400;
