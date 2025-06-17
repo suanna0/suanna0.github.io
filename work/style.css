@@ -170,15 +170,11 @@ iframe {
 
 
 @media only screen and (max-width: 850px) {
-  p {
+  p, button {
     font-size: 14px;
   }
   h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 18px;
+    font-size: 36px;
   }
 
   /* For mobile phones: */
