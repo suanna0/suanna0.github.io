@@ -20,17 +20,22 @@ p, .role, .name, button, h3 {
   margin-right: 20vw;
 }
 
+.credits {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Equal width columns */
+  column-gap: 10px; 
+  text-align: right; /* Align .role text to right */
+}
+
 .role {
+  font-weight: 600;
   text-align: right;
 }
 
 .name {
-  font-weight: bold;
+  text-align: left;
 }
 
-.credits {
-  column-count: 2;
-}
 
 h3 {
   font-size: 14px;
@@ -220,6 +225,6 @@ iframe {
 
   .side_by_side {
   padding: 2.5px 0px;
-}
+  }
 
 }
