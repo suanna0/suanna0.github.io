@@ -33,7 +33,7 @@
       <div class="empty_box"></div>
       <div class="empty_box"></div>
 
-      <div class = "landing_desc">
+      <div class = "landing_desc fade-up">
         <h1>
           Suanna Zhong studies Computer Science and Art at  <a target="_blank" href="https://www.cmu.edu/"
             >Carnegie Mellon University</a
@@ -152,6 +152,24 @@
       document.getElementById("backToTop").onclick = function () {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       };
+
+      // Function to reveal elements with fade-up animation
+      function revealOnScroll() {
+        const elements = document.querySelectorAll('.fade-up');
+        const windowHeight = window.innerHeight;
+
+        elements.forEach(el => {
+          const elementTop = el.getBoundingClientRect().top;
+          if (elementTop < windowHeight - 20) {
+            el.classList.add('visible');
+          }
+        });
+      }
+
+      // Run on scroll and on load
+      window.addEventListener('scroll', revealOnScroll);
+      window.addEventListener('load', revealOnScroll);
+
     </script>
   </body>
 </html>
