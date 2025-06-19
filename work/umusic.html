@@ -13,6 +13,9 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     
     <title>º1824 – Universal Music Group | Suanna Zhong</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
   </head>
 
   <body>
@@ -81,21 +84,7 @@
 
       </div>
     </div>
-    <script>
-      // Show the button when scrolling down
-      window.onscroll = function () {
-        const btn = document.getElementById("backToTop");
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-          btn.style.display = "block";
-        } else {
-          btn.style.display = "none";
-        }
-      };
-
-      // Scroll to top when button is clicked
-      document.getElementById("backToTop").onclick = function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      };
+    <script src = "script.js">
     </script>
   </body>
 </html>

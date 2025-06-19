@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,8 +10,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    
+
     <title>Work | Suanna Zhong</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
   </head>
 
   <body>
@@ -33,26 +35,25 @@
       <div class="empty_box"></div>
       <div class="empty_box"></div>
 
-      <div class = "landing_desc fade-up">
+      <div class="landing_desc">
         <h1>
-          Suanna Zhong studies Computer Science and Art at  <a target="_blank" href="https://www.cmu.edu/"
-            >Carnegie Mellon University</a
-          >, 
+          Suanna Zhong studies Computer Science and Art at  
+          <a target="_blank" href="https://www.cmu.edu/">Carnegie Mellon University</a>, 
           focusing on how emerging tools can shape the future of media 
           distribution. 
           <br><br>
           Her clients span a wide range of industries, from tech to 
-            contemporary art and global entertainment, 
-            including <a target = "_blank" href = "https://www.commonsensemedia.org/">Common Sense Media</a>, 
-            <a target = "_blank" href = "https://www.dehancer.com/">Dehancer</a>, 
-            <a target = "_blank" href = "https://www.jype.com/">JYP Entertainment</a>,
-            <a target = "_blank" href = "https://www.marcusrahauser.com/">Marcus Rahauser</a>, 
-            <a target = "_blank" href = "https://www.meta.com/">Meta/Facebook</a>, 
-            <a target = "_blank" href = "https://www.pinterest.com/">Pinterest</a>, 
-            <a target = "_blank" href = "https://www.republicrecords.com/">Republic Records</a>, 
-            <a target = "_blank" href = "https://www.virginmusic.com/">Virgin Music Group</a>, and
-            <a target = "_blank" href = "https://www.vsco.co/">VSCO</a>.
-            <br /><br />
+          contemporary art and global entertainment, 
+          including <a target="_blank" href="https://www.commonsensemedia.org/">Common Sense Media</a>, 
+          <a target="_blank" href="https://www.dehancer.com/">Dehancer</a>, 
+          <a target="_blank" href="https://www.jype.com/">JYP Entertainment</a>,
+          <a target="_blank" href="https://www.marcusrahauser.com/">Marcus Rahauser</a>, 
+          <a target="_blank" href="https://www.meta.com/">Meta/Facebook</a>, 
+          <a target="_blank" href="https://www.pinterest.com/">Pinterest</a>, 
+          <a target="_blank" href="https://www.republicrecords.com/">Republic Records</a>, 
+          <a target="_blank" href="https://www.virginmusic.com/">Virgin Music Group</a>, and
+          <a target="_blank" href="https://www.vsco.co/">VSCO</a>.
+          <br /><br />
         </h1>
       </div>
 
@@ -62,23 +63,17 @@
           <a href="umusic.html">
             <div class="video-container">
               <video preload="none" autoplay muted playsinline loop>
-                <source
-                  src="https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4"
-                  type="video/mp4"
-                />
+                <source src="https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4" type="video/mp4" />
               </video>
             </div>
           </a>
         </div>
-        
+
         <div class="gallery">
           <a href="elysium.html">
             <div class="video-container">
-              <video preload = "none" autoplay muted playsinline loop>
-                <source
-                  src="https://de1wwae7728z6.cloudfront.net/videos/elysium/elysium.mp4"
-                  type="video/mp4"
-                />
+              <video preload="none" autoplay muted playsinline loop>
+                <source src="https://de1wwae7728z6.cloudfront.net/videos/elysium/elysium.mp4" type="video/mp4" />
               </video>
             </div>
           </a>
@@ -88,10 +83,7 @@
           <a href="malloc.html">
             <div class="video-container">
               <video preload="none" autoplay muted playsinline loop>
-                <source
-                  src="https://de1wwae7728z6.cloudfront.net/videos/malloc/malloc-demo.mp4"
-                  type="video/mp4"
-                />
+                <source src="https://de1wwae7728z6.cloudfront.net/videos/malloc/malloc-demo.mp4" type="video/mp4" />
               </video>
             </div>
           </a>
@@ -101,10 +93,7 @@
           <a href="klee.html">
             <div class="video-container">
               <video preload="none" autoplay muted playsinline loop>
-                <source
-                  src="https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4"
-                  type="video/mp4"
-                />
+                <source src="https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4" type="video/mp4" />
               </video>
             </div>
           </a>
@@ -128,47 +117,14 @@
           </a>
         </div>
       </div>
-      <div class = "footer">
-        <h3>
-          © Suanna Zhong 2025. All rights reserved.
-        </h3>
-        <button class = "button" id="backToTop" title="Back to Top">Back to Top ↑</button>
 
+      <div class="footer">
+        <h3>© Suanna Zhong 2025. All rights reserved.</h3>
+        <button class="button" id="backToTop" title="Back to Top">Back to Top ↑</button>
       </div>
     </div>
-    <script>
-      // Show the button when scrolling down
-      window.onscroll = function () {
-        const btn = document.getElementById("backToTop");
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-          btn.style.display = "block";
-        } else {
-          btn.style.display = "none";
-        }
-      };
 
-      // Scroll to top when button is clicked
-      document.getElementById("backToTop").onclick = function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      };
-
-      // Function to reveal elements with fade-up animation
-      function revealOnScroll() {
-        const elements = document.querySelectorAll('.fade-up');
-        const windowHeight = window.innerHeight;
-
-        elements.forEach(el => {
-          const elementTop = el.getBoundingClientRect().top;
-          if (elementTop < windowHeight - 20) {
-            el.classList.add('visible');
-          }
-        });
-      }
-
-      // Run on scroll and on load
-      window.addEventListener('scroll', revealOnScroll);
-      window.addEventListener('load', revealOnScroll);
-
-    </script>
+    
+  <script src = "script.js"></script>
   </body>
 </html>
