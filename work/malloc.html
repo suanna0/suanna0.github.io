@@ -30,7 +30,8 @@
           <button class="button">About</button>
         </a>
       </div>
-      <video src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-demo.mp4?v=1746944718960" 
+      <video 
+        src="https://de1wwae7728z6.cloudfront.net/videos/malloc/malloc-demo.mp4"
         autoplay muted playsinline loop playsinline style="width: 100%; height: auto;">
       </video>
       <div class="empty_box"></div>
@@ -68,7 +69,8 @@
         <div class="content_images">
           <img loading = "lazy"
             id="content_img"
-            src="https://cdn.glitch.global/66e497d9-d0f8-4357-b2ae-33c3e94f0744/welcome.gif?v=1744000016795m">
+            src="https://de1wwae7728z6.cloudfront.net/images/malloc/welcome.gif"
+          >
         </div>
       </div>
       <p>
@@ -83,12 +85,13 @@
         <div class="side_by_side">
           <img loading = "lazy"
           id="content_img"
-          src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-ds.png?v=1746945562031">
+          src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc-ds.png"
+          >
         </div>
 
         <div class="side_by_side">
           <img loading = "lazy"
-            src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-ds-r.png?v=1746947342902"
+            src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc-ds-r.png"
           />
         </div>
       </div>
@@ -111,7 +114,7 @@
         <div class="video-container">
           <video autoplay muted playsinline loop>
             <source
-              src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc-landing-interaction.mp4?v=1746947171742"
+              src="https://de1wwae7728z6.cloudfront.net/videos/malloc/malloc-landing-interaction.mp4"
                            type="video/mp4"
             />
           </video>
@@ -121,7 +124,7 @@
       <div class="content_images">
         <img loading = "lazy"
           id="content_img"
-          src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc_site_structure.png?v=1746945455827">
+          src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_site_structure.png">
       </div>
 
       <p>
@@ -132,29 +135,26 @@
         <div class="side_by_side">
           <img loading = "lazy"
           id="content_img"
-          src="https://cdn.glitch.global/18bcd403-d69a-48ad-be8b-1e721ec4617f/malloc_block.gif?v=1746206626669">
+          src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_block.gif"
+          >
         </div>
 
         <div class="side_by_side">
           <img loading = "lazy"
           id="content_img"
-          src="https://cdn.glitch.global/66e497d9-d0f8-4357-b2ae-33c3e94f0744/fragmentation.gif?v=1745116144838">
+          src="https://de1wwae7728z6.cloudfront.net/images/malloc/fragmentation.gif"
+          >
         </div>
       </div>
 
       <h2>Visualizing two data structures:</h2>
-      <p>
-      When I did the lab for the first time, I had a difficult time grasping the concept that heap and the explicit free list are two separate data structures, and that if the author chooses to implement LIFO insertion, the blocks in the free list may be out of address order. 
-      <br><br>
-      I wanted to clearly establish that concept when describing the difference between the implicit and explicit list. Hence, the explicit list has lines that point blocks in the heap to their corresponding location in the free list.
-      </p>
 
       <div class="side_by_side_content">
         <div class="side_by_side">
           <div class="video-container">
             <video autoplay muted playsinline loop>
               <source
-                src="https://cdn.glitch.global/66e497d9-d0f8-4357-b2ae-33c3e94f0744/implicit.mp4?v=1748188204128"
+                src="https://de1wwae7728z6.cloudfront.net/videos/malloc/implicit.mp4"
                                type="video/mp4"
               />
             </video>
@@ -165,13 +165,19 @@
           <div class="video-container">
             <video autoplay muted playsinline loop>
               <source
-                src="https://cdn.glitch.global/66e497d9-d0f8-4357-b2ae-33c3e94f0744/explicit.mp4?v=1748148970606"
+                src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit.mp4"
                                type="video/mp4"
               />
             </video>
           </div>
         </div>
       </div>
+
+      <p>
+      When I did the lab for the first time, I had a difficult time grasping the concept that heap and the explicit free list are two separate data structures, and that if the author chooses to implement LIFO insertion, the blocks in the free list may be out of address order. 
+      <br><br>
+      I wanted to clearly establish that concept when describing the difference between the implicit and explicit list. Hence, the explicit list has lines that point blocks in the heap to their corresponding location in the free list.
+      </p>
 
       <h1>You may also like</h1>
 
