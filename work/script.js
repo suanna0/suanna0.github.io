@@ -14,6 +14,7 @@ window.scrollTo({ top: 0, behavior: "smooth" });
 
 // Animate landing_desc on scroll with GSAP
 gsap.registerPlugin(ScrollTrigger);
+const isMobile = window.innerWidth < 768; 
 
 gsap.from(".landing_desc", {
 scrollTrigger: {
@@ -32,7 +33,7 @@ gsap.utils.toArray("img").forEach((imgEl) => {
       trigger: imgEl,
       start: "top 80%",
     },
-    y: 75,
+    y: isMobile ? 20 : 75, 
     opacity: 0,
     duration: 1,
     ease: "power4.out"
@@ -45,7 +46,7 @@ gsap.utils.toArray("video").forEach((videoEl) => {
       trigger: videoEl,
       start: "top 80%",
     },
-    y: 75,
+    y: isMobile ? 20 : 75,  
     opacity: 0,
     duration: 1,
     ease: "power4.out"
