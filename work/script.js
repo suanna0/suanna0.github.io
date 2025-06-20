@@ -16,9 +16,36 @@ window.scrollTo({ top: 0, behavior: "smooth" });
 gsap.registerPlugin(ScrollTrigger);
 const isMobile = window.innerWidth < 768; 
 
-gsap.from(".landing_desc", {
+const downArrow = document.getElementById("downArrow");
+if (downArrow) {
+  gsap.to(downArrow, {
+    opacity: 1,
+    delay: 1,
+    duration: 1,
+    ease: "power2.out"
+  });
+
+  downArrow.addEventListener("click", () => {
+    gsap.to(window, {
+      scrollTo: "#mainSite",
+      duration: 1,
+      ease: "power2.inOut"
+    });
+  });
+
+  document.getElementById("downArrow").addEventListener("click", () => {
+    gsap.to(window, {
+      scrollTo: "#mainSite",
+      duration: 1,
+      ease: "power2.inOut"
+    });
+  });
+}
+
+
+gsap.from(".landing_desc h1", {
 scrollTrigger: {
-    trigger: ".landing_desc",
+    trigger: ".landing_desc h1",
     start: "top 80%",
 },
 y: 80,

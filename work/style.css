@@ -16,7 +16,7 @@ p, .role, .name, button, h3 {
   color: #ffffff;
 }
 
-.landing_desc {
+.landing_desc h1 {
   margin-right: 20vw;
 }
 
@@ -131,13 +131,33 @@ a:link, a:visited, a:hover, a:active, a:focus {
   cursor: pointer;
 }
 
+section {
+  padding: 10px 50px 10px 50px;
+  max-width: 1500px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
 h1, h2 {
   line-height: 105%;
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 48px;
   color: #ffffff;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+  color: #7f7f7f; 
+  z-index: 10;
 }
 
 h2 {
