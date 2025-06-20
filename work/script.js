@@ -21,7 +21,7 @@ scrollTrigger: {
     trigger: ".landing_desc",
     start: "top 80%",
 },
-y: 125,
+y: 80,
 opacity: 0,
 duration: 1,
 ease: "power4.out"
@@ -33,7 +33,7 @@ gsap.utils.toArray("img").forEach((imgEl) => {
       trigger: imgEl,
       start: "top 80%",
     },
-    y: isMobile ? 20 : 75, 
+    y: isMobile ? 10 : 30, 
     opacity: 0,
     duration: 1,
     ease: "power4.out"
@@ -46,7 +46,7 @@ gsap.utils.toArray("video").forEach((videoEl) => {
       trigger: videoEl,
       start: "top 80%",
     },
-    y: isMobile ? 20 : 75,  
+    y: isMobile ? 10 : 30, 
     opacity: 0,
     duration: 1,
     ease: "power4.out"
