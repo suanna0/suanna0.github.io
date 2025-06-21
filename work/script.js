@@ -60,9 +60,9 @@ gsap.utils.toArray("img").forEach((imgEl) => {
       trigger: imgEl,
       start: "top 80%",
     },
-    y: isMobile ? 10 : 30, 
+    y: isMobile ? 10 : 20, 
     opacity: 0,
-    duration: 1,
+    duration: 0.75,
     ease: "power4.out"
   });
 });
@@ -73,9 +73,9 @@ gsap.utils.toArray("video").forEach((videoEl) => {
       trigger: videoEl,
       start: "top 80%",
     },
-    y: isMobile ? 10 : 30, 
+    y: isMobile ? 10 : 20, 
     opacity: 0,
-    duration: 1,
+    duration: 0.75,
     ease: "power4.out"
   });
 });
