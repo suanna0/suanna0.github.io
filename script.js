@@ -6,13 +6,6 @@ gsap.from("#Suanna", {
   duration: 1,
 });
 
-gsap.to(".dark-bg", {
-  ease: "power3.out",
-  delay: 2,
-  opacity: 0,
-  duration: 0.5
-});
-
 gsap.from("#Suanna", {
   ease: "power3.out",
   delay: 2.5,
@@ -24,7 +17,7 @@ gsap.from("#links", {
   opacity: 0,
   delay: 2.5,
   y: 200,
-  duration: 0.5,
+  duration: 0.8,
   ease: "power3.out"
 });
 
