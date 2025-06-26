@@ -215,6 +215,8 @@ iframe {
     padding: 3vh 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    position: static;
+    z-index: 1000;
   }
 
   .content, section{
