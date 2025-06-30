@@ -1,10 +1,18 @@
+:root {
+  --color-1: #ababab;
+  --color-2: #ffffff;
+  --color-3: #111111;
+  --color-4: #00ff00;
+
+}
+
 body {
-  background-color: #111111;
+  background-color: var(--color-3);
 }
 
 code{
   font-family: "source code pro", monospace;
-  color: #aaaaaa;
+  color: var(--color-1);
 }
 
 p, .role, .name, button, h3 {
@@ -13,7 +21,7 @@ p, .role, .name, button, h3 {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: #ffffff;
+  color: var(--color-2);
 }
 
 .landing_desc {
@@ -45,7 +53,7 @@ p, .role, .name, button, h3 {
 
 h3 {
   font-size: 14px;
-  color: #aaaaaa;
+  color: var(--color-1);
 }
 
 .video-container {
@@ -62,7 +70,7 @@ h3 {
 }
 
 .button {
-  background-color: #111111;
+  background-color: var(--color-3);
   border: none;
   text-align: right;
   text-decoration: none;
@@ -78,7 +86,7 @@ h3 {
   top: 0;
   position: sticky;
   z-index: 1000;
-  background-color: #111111;
+  background-color: var(--color-3);
 }
 
 .empty_box {
@@ -124,7 +132,6 @@ div.side_by_side img {
   margin: 0 auto;
 }
 
-
 section {
   height: 100vh;
 }
@@ -141,7 +148,7 @@ section {
 }
 
 a:link, a:visited, a:hover, a:active, a:focus {
-  color: #00ff00;
+  color: var(--color-4);
   text-decoration: none;
   cursor: pointer;
 }
@@ -152,7 +159,7 @@ h1, h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
-  color: #ffffff;
+  color: var(--color-2);
 }
 
 .down-arrow {
@@ -164,7 +171,7 @@ h1, h2 {
   opacity: 0;
   cursor: pointer;
   transition: opacity 0.5s ease;
-  color: #7f7f7f; 
+  color: var(--color-1);
   z-index: 10;
 }
 
@@ -192,8 +199,8 @@ iframe {
 }
 
 ::selection {
-  background: #00ff00; /* Highlight background */
-  color: black;         /* Text color inside the highlight */
+  background: var(--color-4); 
+  color: var(--color-3);         
 }
 
 
@@ -207,7 +214,7 @@ iframe {
   }
 
   h3 {
-  font-size: 10px;
+  font-size: 12px;
   }
   
   h1 {
