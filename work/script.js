@@ -1,4 +1,3 @@
-// Scroll-to-top button
 window.onscroll = function () {
 const btn = document.getElementById("backToTop");
 if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
@@ -12,7 +11,6 @@ document.getElementById("backToTop").onclick = function () {
 window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
-// Animate landing_desc on scroll with GSAP
 gsap.registerPlugin(ScrollTrigger);
 const isMobile = window.innerWidth < 768; 
 
