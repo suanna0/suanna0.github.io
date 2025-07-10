@@ -56,6 +56,32 @@ h3 {
   color: var(--color-1);
 }
 
+.project_tag_container{
+  display: flex;
+  margin-top: 10px;
+}
+
+.project_tag {
+  text-transform: uppercase;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: inline-block;
+  padding: 2px 6px;
+  margin-right: 5px;
+  font-size: 12px;
+  color: var(--color-1);
+  border: 1px solid var(--color-1);
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.project_tag:hover {
+  background-color: var(--color-4);
+  color: var(--color-3);
+  border: 1px solid var(--color-3);
+}
+
 .video-container {
   width: 100%; /* or any fixed value like 600px */
   aspect-ratio: 16 / 9; /* optional for keeping proportions */
@@ -213,7 +239,7 @@ iframe {
     font-size: 14px;
   }
 
-  h3 {
+  h3, .project_tag {
   font-size: 12px;
   }
   
