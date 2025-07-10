@@ -71,7 +71,7 @@ h3 {
   margin-right: 5px;
   font-size: 12px;
   color: var(--color-1);
-  border: 1px solid var(--color-1);
+  /* border: 1px solid var(--color-1); */
   border-radius: 10px;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
@@ -79,7 +79,7 @@ h3 {
 .project_tag:hover {
   background-color: var(--color-4);
   color: var(--color-3);
-  border: 1px solid var(--color-3);
+  /* border: 1px solid var(--color-3); */
 }
 
 .video-container {
