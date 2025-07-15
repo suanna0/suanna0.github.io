@@ -3,6 +3,7 @@
   --color-2: #ffffff;
   --color-3: #111111;
   --color-4: #00ff00;
+
 }
 
 body {
@@ -37,7 +38,7 @@ p, .role, .name, button, h3 {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   column-gap: 10px; 
-  text-align: right; 
+  text-align: right; /* Align .role text to right */
 }
 
 .role {
@@ -70,6 +71,13 @@ h3 {
   margin-right: 5px;
   font-size: 12px;
   color: var(--color-1);
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.project_tag:hover {
+  background-color: var(--color-4);
+  color: var(--color-3);
 }
 
 .video-container {
