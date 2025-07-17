@@ -32,7 +32,16 @@ p, .role, .name, button, h3 {
 
 .landing_desc h1 {
   margin-right: 20vw;
+  transition: transform 0.1s ease;
+  will-change: transform;
+  display: inline-block;
 }
+
+.parallax-word {
+  display: inline-block;
+  will-change: transform;
+}
+
 
 .credits {
   display: grid;
