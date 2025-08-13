@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset = "UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ckh5shu.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://de1wwae7728z6.cloudfront.net/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://de1wwae7728z6.cloudfront.net/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://de1wwae7728z6.cloudfront.net/images/favicon/favicon-16x16.png">
+        <title>Wreaking Havoc on Tantau Ave - Suanna Zhong</title>
+
+    </head>
+
+
+    <body>
+        <div class="crosshair-area">
+            <div class = "navbar">
+                <a href="https://suannazhong.com">
+                    <button class = "button">←Commercial</button>
+                </a>
+                
+                <a href="../work.html">
+                    <button class = "button">Work</button>
+                </a>
+
+                <a href="../../cv.html">
+                    <button class = "button">About/CV</button>
+                </a>
+            </div>
+
+            <div class = "content">
+                <h1>Wreaking Havoc on Tantau Ave</h1>
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <img id = "content_img" 
+                        src="https://de1wwae7728z6.cloudfront.net/images/photo/tantau/tantau_1.jpg">
+                    </div>
+                </div>
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <img id = "content_img" src="https://de1wwae7728z6.cloudfront.net/images/photo/tantau/tantau_2.jpg">
+                    </div>
+                </div>
+
+                <div class="reveal">
+                    <div class = "content_images">
+                        <img id = "content_img" src="https://de1wwae7728z6.cloudfront.net/images/photo/tantau/tantau_3.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class = "footer">
+                <button class = "button" id="backToTop" title="Back to Top">Back to Top ↑</button>
+
+                <p>
+                © Suanna Zhong 2025. 
+                </p>
+            </div>
+        </div>
+        <script>
+            // Show the button when scrolling down
+            window.onscroll = function () {
+                const btn = document.getElementById("backToTop");
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                btn.style.display = "block";
+                } else {
+                btn.style.display = "none";
+                }
+            };
+
+            // Scroll to top when button is clicked
+            document.getElementById("backToTop").onclick = function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+            </script>
+    </body>
+
+</html>
