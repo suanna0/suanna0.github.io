@@ -195,6 +195,10 @@ h1, h2 {
   color: var(--color-2);
 }
 
+ h1 {
+  font-size: 64px;
+ }
+
 .down-arrow {
   position: absolute;
   bottom: 50px;
