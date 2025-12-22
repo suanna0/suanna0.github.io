@@ -99,17 +99,16 @@
         <div>
           <p>
             The opening page is interactive, functioning as a black-box 
-            representation of <code>malloc</code>. 
-            <br><br>
-            To keep the code clean, I used Mode View Controller architecture to 
-            separate mouse interactions from drawing logic. 
+            representation of <code>malloc</code>. To keep the code clean, I 
+            used a Model View Controller structure to separate mouse 
+            interactions from drawing logic. 
           </p>
         </div>
 
         <div class="video-container">
           <video autoplay muted playsinline loop>
             <source
-              src="https://de1wwae7728z6.cloudfront.net/videos/malloc/malloc-landing-interaction.mp4"
+              src="https://de1wwae7728z6.cloudfront.net/videos/malloc/front_page.mp4"
                            type="video/mp4"
             />
           </video>
@@ -143,7 +142,7 @@
           <div class="video-container">
             <video autoplay muted playsinline loop>
               <source
-                src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit.mp4"
+                src="https://de1wwae7728z6.cloudfront.net/videos/malloc/implicit_1.mp4"
                                type="video/mp4"
               />
             </video>
@@ -155,21 +154,16 @@
 
       <div class="side_by_side_content">
         <div class="side_by_side">
-          <div class="video-container">
-            <video autoplay muted playsinline loop>
-              <source
-                src="https://de1wwae7728z6.cloudfront.net/videos/malloc/implicit.mp4"
-                               type="video/mp4"
-              />
-            </video>
-          </div>
+          <img
+            src="https://de1wwae7728z6.cloudfront.net/images/malloc/explicit_slide.jpg"
+          />
         </div>
 
         <div class="side_by_side">
           <div class="video-container">
             <video autoplay muted playsinline loop>
               <source
-                src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit.mp4"
+                src="https://de1wwae7728z6.cloudfront.net/videos/malloc/implicit_0.mp4"
                                type="video/mp4"
               />
             </video>
@@ -178,7 +172,6 @@
       </div>
 
       <p>
-        TO DO: SHOW BEFORE AND AFTER <BR><BR>
       When I did the lab for the first time, I had a difficult time grasping the 
       concept that heap and the explicit free list are two separate data 
       structures, and that if the author chooses to implement LIFO insertion, 
