@@ -4,7 +4,7 @@
     <head>
         <meta charset = "UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
         <link rel="stylesheet" href="https://use.typekit.net/ckh5shu.css">
         <link rel="apple-touch-icon" sizes="180x180" href="https://de1wwae7728z6.cloudfront.net/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="https://de1wwae7728z6.cloudfront.net/images/favicon/favicon-32x32.png">
@@ -15,21 +15,36 @@
     <body>
         <div class="crosshair-area">
             <div class = "navbar">
-                <a href="https://suannazhong.com">
+                <a href="https://suannazhong-com.vercel.app">
                     <button class = "button">←Commercial</button>
                 </a>
                 <a href="work.html">
                     <button class = "button">Work</button>
 
                 </a>
-                <a href="../cv.html">
+                <a href="../index.html">
                     <button class = "button">About/CV</button>
                 </a>
             </div>
 
-            <div class = "gallery-container"> 
                 <h1>Work</h1>
                 <p>2023-present, roughly newest to oldest.</p>
+
+                <div class = "gallery_content">
+                    <p>
+                        Photography for BonbonBardot! <a href="/pages/photo/bonbon.html"><code>(MORE)</code></a>
+                    </p>
+
+                    <div class="reveal">
+                        <div class="gallery">
+                            <a href="/pages/photo/bonbon.html">
+                                <img loading = "lazy" 
+                                src="https://de1wwae7728z6.cloudfront.net/images/bonbonbardot/04.jpg"
+                                alt="BonbonBardot!">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="gallery_content">
                     <p>
@@ -321,22 +336,6 @@
                     <div class="reveal">
                         <div class="gallery">
                             <img loading = "lazy" src="https://de1wwae7728z6.cloudfront.net/images/paint/my_kristi.jpg" alt="My Kristi">
-                        </div>
-                    </div>
-                </div>
-
-                <div class = "gallery_content">
-                    <p>
-                        Photography for Bonbon Bardot Show <a href="/pages/photo/bonbon.html"><code>(MORE)</code></a>
-                    </p>
-
-                    <div class="reveal">
-                        <div class="gallery">
-                            <a href="/pages/photo/bonbon.html">
-                                <img loading = "lazy" 
-                                src="https://de1wwae7728z6.cloudfront.net/images/photo/bonbon/001.jpg"
-                                alt="Bonbon Bardot Fashion Show">
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -666,14 +665,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
             <div class = "footer">
-                <button class = "button" id="backToTop" title="Back to Top">Back to Top ↑</button>
-
                 <p>
-                © Suanna Zhong 2025. 
+                    © Suanna Zhong 2025. 
                 </p>
+                <button class = "button" id="backToTop" title="Back to Top">Back to Top ↑</button>
             </div>
         </div>
         <script>

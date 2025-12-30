@@ -1,3 +1,8 @@
+.crosshair-area {
+  cursor: crosshair;
+  padding: 0px 25vw; 
+}
+
 .text, p, ol, .button, h1, h2, b {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-style: normal;
@@ -10,7 +15,7 @@
 }
 
 .button, .more{
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: none;
   text-align: right;
   text-decoration: none;
@@ -32,7 +37,10 @@ code {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.footer p {
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #aaaaaa;
 }
 
@@ -71,10 +79,6 @@ div.small img {
 .side_by_side img{
   width: 100%;
   height: auto;
-}
-
-.gallery-container, .footer, .navbar, .content  {
-  padding: 0px 25vw; 
 }
 
 .content_images {
@@ -127,10 +131,6 @@ iframe {
   .gallery_content {
     column-count: 1;
     width: 100%;
-  }
-  
-  .content, .footer, .navbar, .gallery-container {
-    padding: 3px 0px; 
   }
 
   div.gallery {
