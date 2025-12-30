@@ -110,6 +110,11 @@ iframe {
 }
 
 @media only screen and (max-width: 850px) {
+
+  .crosshair-area {
+    padding: 0px 2px; 
+  }
+
   /* For mobile phones: */
   [class*="navbar"] {
     display: grid;
