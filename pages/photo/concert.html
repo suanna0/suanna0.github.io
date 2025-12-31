@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset = "UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ckh5shu.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://de1wwae7728z6.cloudfront.net/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://de1wwae7728z6.cloudfront.net/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://de1wwae7728z6.cloudfront.net/images/favicon/favicon-16x16.png">
+        <title>Concert - Suanna Zhong</title>
+
+    </head>
+
+
+    <body>
+        <div class="crosshair-area">
+            <div class = "navbar">
+                <a href="https://suannazhong.com">
+                    <button class = "button">←Commercial</button>
+                </a>
+                
+                <a href="../work.html">
+                    <button class = "button">Work</button>
+                </a>
+
+                <a href="../../index.html">
+                    <button class = "button">About/CV</button>
+                </a>
+            </div>
+
+            <h1>Concert</h1>
+            <p>
+                09/12/2025 Grent Perez and Sarah Kinsley at CMU AB Fall Concert
+            </p>
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <img id = "content_img" 
+                    src="https://de1wwae7728z6.cloudfront.net/images/concert/00.jpg">
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <img id = "content_img" 
+                    src="https://de1wwae7728z6.cloudfront.net/images/concert/01.jpg">
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <img id = "content_img" 
+                    src="https://de1wwae7728z6.cloudfront.net/images/concert/02.jpg">
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <img id = "content_img" 
+                    src="https://de1wwae7728z6.cloudfront.net/images/concert/03.jpg">
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <img id = "content_img" 
+                    src="https://de1wwae7728z6.cloudfront.net/images/concert/04.jpg">
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <img id = "content_img" src="https://de1wwae7728z6.cloudfront.net/images/concert/05.jpg">
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class = "content_images">
+                    <img id = "content_img" src="https://de1wwae7728z6.cloudfront.net/images/concert/06.jpg">
+                </div>
+            </div>
+                
+
+            <div class = "footer">
+                <p>© Suanna Zhong 2025</p>
+                <button class = "button" id="backToTop" title="Back to Top">Back to Top ↑</button>
+            </div>
+        </div>
+        <script>
+            // Show the button when scrolling down
+            window.onscroll = function () {
+                const btn = document.getElementById("backToTop");
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                btn.style.display = "block";
+                } else {
+                btn.style.display = "none";
+                }
+            };
+
+            // Scroll to top when button is clicked
+            document.getElementById("backToTop").onclick = function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+            </script>
+    </body>
+
+</html>
