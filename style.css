@@ -46,7 +46,8 @@ code {
 
 
 .gallery_content {
-  column-count: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 5px;
 }
 
@@ -134,7 +135,7 @@ iframe {
   }
 
   .gallery_content {
-    column-count: 1;
+    display: block;
     width: 100%;
   }
 
