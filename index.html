@@ -14,19 +14,8 @@
 
     <body>
         <div class="crosshair-area">
-            <div class = "navbar">
-                <a href="https://suannazhong.com">
-                    <button class = "button">←Commercial</button>
-                </a>
-                
-                <a href="/pages/work.html">
-                    <button class = "button">Work</button>
-                </a>
-
-                <a href="#">
-                    <button class = "button">About/CV</button>
-                </a>
-            </div>
+            <div id="navbar"></div>
+            <script src="/navbar.js"></script>
             <h1>Artist Statement/CV</h1> 
 
             <div class="gallery_content">
@@ -99,29 +88,9 @@
                 Instagram: <a target = "_blank" href = "https://www.instagram.com/suannazhong/">@suannazhong</a><br>
             </p>
 
-            <div class = "footer">
-                <p>
-                    © Suanna Zhong 2025
-                </p>
-                <button class = "button" id="backToTop" title="Back to Top">
-                    Back to Top ↑
-                </button>
-            </div>
+            <div id="footer"></div>
+            <script src="/footer.js"></script>
         </div>
-        <script>
-            window.onscroll = function () {
-                const btn = document.getElementById("backToTop");
-                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                btn.style.display = "block";
-                } else {
-                btn.style.display = "none";
-                }
-            };
-
-            document.getElementById("backToTop").onclick = function () {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            };
-        </script>
     </body>
 
 </html>

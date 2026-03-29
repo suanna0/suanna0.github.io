@@ -13,19 +13,8 @@
 
     <body>
         <div class="crosshair-area">
-            <div class = "navbar">
-                <a href="https://suannazhong.com">
-                    <button class = "button">←Commercial</button>
-                </a>
-                
-                <a href="../work.html">
-                    <button class = "button">Work</button>
-                </a>
-
-                <a href="../../index.html">
-                    <button class = "button">About/CV</button>
-                </a>
-            </div>
+            <div id="navbar"></div>
+            <script src="/navbar.js"></script>
 
                 <h1>Recursive Structures</h1>
                 <p>7/8/2025</p>
@@ -181,29 +170,9 @@ Sonfist, Alan. <i>Nature: The End of Art — Environmental Landscapes.</i> New Y
                 </p>
 
 
-            <div class = "footer">
-                <p>
-                    © Suanna Zhong 2025
-                </p>
-                <button class = "button" id="backToTop" title="Back to Top">Back to Top ↑</button>
-            </div>
+            <div id="footer"></div>
+            <script src="/footer.js"></script>
         </div>
-        <script>
-            // Show the button when scrolling down
-            window.onscroll = function () {
-                const btn = document.getElementById("backToTop");
-                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                btn.style.display = "block";
-                } else {
-                btn.style.display = "none";
-                }
-            };
-
-            // Scroll to top when button is clicked
-            document.getElementById("backToTop").onclick = function () {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            };
-            </script>
     </body>
 
 </html>
