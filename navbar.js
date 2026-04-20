@@ -19,7 +19,7 @@
 
   const links = [
     { label: '←Commercial', href: 'https://suannazhong.com' },
-    { label: 'About/CV',     href: '/index.html',         key: 'about'   },
+    { label: 'CV',     href: '/index.html',         key: 'about'   },
     { label: 'Work',         href: '/pages/work.html',    key: 'work'    },
     { label: 'Writing',      href: '/pages/writing.html', key: 'writing' },
   ];

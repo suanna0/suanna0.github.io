@@ -3,13 +3,13 @@
   padding: 0px 25vw; 
 }
 
-.text, p, ol, .button, h1, h2, b {
+.text, p, ol, .button, h1, h2, b, .cv-entries {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-style: normal;
   color: #222222;
 }
 
-.text, p, ol, .button, b, h2 {
+.text, p, ol, .button, b, h2, .cv-entries {
   font-weight: 500;
   font-size: 14px;
 }
@@ -30,6 +30,7 @@ code {
   font-weight: 400;
   font-size: 8px;
   color: #222222;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -72,6 +73,13 @@ div.small img {
   height: 80px;
 }
 
+
+.cv-entries {
+  display: grid;
+  grid-template-columns: 5em 1fr;
+  margin-top: 0.5em;
+  margin-bottom: 2.5em;
+}
 
 .side_by_side {
   padding: 2px 0px; 
