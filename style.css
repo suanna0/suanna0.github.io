@@ -3,18 +3,18 @@
   padding: 0px 25vw; 
 }
 
-.text, p, ol, .button, h1, h2, b, .cv-entries {
+p, ol, .button, h1, h2, b, .cv-entries {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-style: normal;
   color: #222222;
 }
 
-.text, p, ol, .button, b, h2, .cv-entries {
+p, ol, .button, b, h2, .cv-entries {
   font-weight: 500;
   font-size: 14px;
 }
 
-.button, .more{
+.button {
   background-color: #ffffff;
   border: none;
   text-align: right;
@@ -55,6 +55,12 @@ a.active .button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5px;
+  margin-bottom: 4em;
+}
+
+.gallery_content p {
+  margin-top: 0.5em;
+  margin-bottom: 2.5em;
 }
 
 div.gallery {
@@ -64,13 +70,6 @@ div.gallery {
 div.gallery img {
   width: 100%;
   height: auto;
-}
-
-/* specifically for typing gif */
-div.small img { 
-  width: 229px;
-  padding: 2px;
-  height: 80px;
 }
 
 
@@ -88,6 +87,7 @@ div.small img {
 .side_by_side_content {
   column-count: 2;
   column-gap: 5px;
+  margin-bottom: 4em;
 }
 
 .side_by_side img{
@@ -97,6 +97,7 @@ div.small img {
 
 .content_images {
   text-align: center;
+  margin-bottom: 4em;
 }
 
 #content_img {
