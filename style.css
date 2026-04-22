@@ -37,6 +37,7 @@ code {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 10px 0 14px 0;
+  margin-bottom: 4em;
 }
 
 a.active .button {
