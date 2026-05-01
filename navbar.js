@@ -21,7 +21,6 @@
     { label: '←Commercial', href: 'https://suannazhong.com' },
     { label: 'CV',     href: '/index.html',         key: 'about'   },
     { label: 'Work',         href: '/pages/work.html',    key: 'work'    },
-    { label: 'Writing',      href: '/pages/writing.html', key: 'writing' },
   ];
 
   const el = document.getElementById('navbar');
