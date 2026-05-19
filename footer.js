@@ -2,7 +2,7 @@
   const el = document.getElementById('footer');
   el.className = 'footer';
   el.innerHTML =
-    '<p>Suanna Zhong</p>' +
+    '<p>Last updated May 2026</p>' +
     '<button class="button" id="backToTop" title="Back to Top">Back to Top ↑</button>';
 
   window.addEventListener('scroll', function () {
